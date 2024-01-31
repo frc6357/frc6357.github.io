@@ -1,7 +1,7 @@
  var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2024",
+  "title": "I Love Gibson's bald head",
   "page_title": "Crescendo",
   "checkboxAs": "10",
   "prematch": [
@@ -77,6 +77,10 @@
       "code": "ass",
       "type": "counter"
     }
+    { "name": "Trap Scores",
+      "code": "bss",
+      "type": "counter"
+    }
   ],
   "teleop": [
     { "name": "Amp Scores",
@@ -95,28 +99,25 @@
       "code": "tpu",
       "type": "radio",
       "choices": {
-        "s": "Source<br>",
-        "f": "Floor<br>",
-        "b": "Both<br>",
+        "source": "Source<br>",
+        "floor": "Floor<br>",
+        "both": "Both<br>",
         "x": "Not Attempted"
       },
       "defaultValue": "x"
     }
   ],
   "endgame": [
-    { "name": "Stage Timer",
-      "code": "dt",
-      "type": "timer"
-    },
+   
     { "name": "Final Status",
       "code": "fs",
       "type":"radio",
       "choices": {
-        "p": "Parked<br>",
-        "o": "Onstage<br>",
-        "s": "Onstage (Spotlit)<br>",
-        "h": "Harmony<br>",
-        "a": "Attempted but failed<br>",
+        "parked": "Parked<br>",
+        "onstage": "Onstage<br>",
+        "spotlit": "Onstage (Spotlit)<br>",
+        "harmony": "Harmony<br>",
+        "attempted": "Attempted but failed<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
@@ -127,26 +128,16 @@
     }
   ],
   "postmatch": [
-    { "name": "Driver Skill",
-      "code": "ds",
-      "type": "radio",
-      "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
-        "x": "Not Observed"
-      },
-      "defaultValue": "x"
-    },
+    
     { "name": "Defense Rating",
       "code": "dr",
       "type": "radio",
       "choices": {
-        "b": "Below Average<br>",
-        "a": "Average<br>",
-        "g": "Good<br>",
-        "e": "Excellent<br>",
-        "x": "Did not play defense"
+        "low": "Below Average<br>",
+        "averge": "Average<br>",
+        "good": "Good<br>",
+        "great": "Excellent<br>",
+        "none": "Did not play defense"
       },
       "defaultValue": "x"
     },
@@ -156,11 +147,9 @@
       "choices": {
         "1": "1 (slow)<br>",
         "2": "2<br>",
-        "3": "3<br>",
-        "4": "4<br>",
-        "5": "5 (fast)"
+        "3": "3 (fast)"
       },
-      "defaultValue":"3"
+      "defaultValue":"2"
     },
     { "name": "Died/Immobilized",
       "code": "die",
@@ -172,11 +161,6 @@
     },
     { "name": "Dropped Notes (>2)",
       "code": "dn",
-      "type": "bool"
-    },
-    { "name": "Make good<br>alliance partner?",
-      "tooltip": "Would you want this robot on your alliance in eliminations?",
-      "code": "all",
       "type": "bool"
     },
     { "name": "Comments",
