@@ -1,8 +1,8 @@
+
 var config_data = `
 {
-  "dataFormat": "tsv",
   "title": "Scouting PASS 2024",
-  "page_title": "Crescendo",
+  "page_title": "Pie is afraid of Evan",
   "pitConfig": "true",
   "prematch": [
     { "name": "Team Number",
@@ -19,13 +19,22 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
+    { "name": "Height",
+      "code": "hei",
+      "type": "number",
+      "defaultValue": "0"
+    },
+    { "name": "Max Height",
+      "code": "mah",
+      "type": "number",
+      "defaultValue": "0"
+    },
     { "name": "Drivetrain",
       "code": "drv",
       "type": "radio",
       "choices": {
         "s": "Swerve<br>",
         "w": "West Coast/Tank<br>",
-        "b": "Butterfly/Grashopper<br>",
         "m": "Mechanum<br>",
         "o": "Other"
       },
@@ -69,14 +78,47 @@ var config_data = `
       "code": "fpu",
       "type": "bool"
     },
-    { "name": "Autos",
+    { "name": "Source pickup Notes",
+      "code": "spu",
+      "type": "bool"
+    },
+    { "name": "Number of Autos",
       "code": "aut",
       "type": "text",
       "size": 20,
       "maxSize": 250
     },
-    { "name": "Scouting Method /<br>Program (ScoutingPASS?)",
-      "code": "sct",
+    { "name": "Number of pieces scored in auto",
+      "code": "npa",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
+    },
+    { "name": "Climb",
+      "code": "cli",
+      "type": "radio",
+      "choices": {
+        "inside": "Inside<br>",
+        "outside": "Outside<br>",
+        "both": "Both<br>",
+        "none": "None<br>"
+      },
+      "defaultValue":"n"
+    },
+    { "name": "Score AMP",
+      "code": "amp",
+      "type": "bool"
+    },
+    { "name": "Score Speaker",
+      "code": "spe",
+      "type": "bool"
+    },
+    { "name": "Score Trap",
+      "code": "tra",
+      "type": "bool"
+    },
+    { "name": "Major Concerns",
+      "code": "mc",
       "type": "text",
       "size": 20,
       "maxSize": 250
