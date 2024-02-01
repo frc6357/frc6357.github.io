@@ -78,7 +78,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Trap Scores",
-      "code": "yes",
+      "code": "wee",
       "type": "counter"
     }
   ],
