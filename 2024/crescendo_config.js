@@ -108,19 +108,15 @@ var config_data = `
     }
   ],
   "endgame": [
-    { "name": "Stage Timer",
-      "code": "dt",
-      "type": "timer"
-    },
     { "name": "Final Status",
       "code": "fs",
       "type":"radio",
       "choices": {
-        "p": "Parked<br>",
-        "o": "Onstage<br>",
-        "s": "Onstage (Spotlit)<br>",
-        "h": "Harmony<br>",
-        "a": "Attempted but failed<br>",
+        "parked": "Parked<br>",
+        "onsatge": "Onstage<br>",
+        "spotlit": "Onstage (Spotlit)<br>",
+        "harmony": "Harmony<br>",
+        "attempted": "Attempted but failed<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
@@ -131,25 +127,14 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Driver Skill",
-      "code": "ds",
-      "type": "radio",
-      "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
-        "x": "Not Observed"
-      },
-      "defaultValue": "x"
-    },
     { "name": "Defense Rating",
       "code": "dr",
       "type": "radio",
       "choices": {
-        "b": "Below Average<br>",
-        "a": "Average<br>",
-        "g": "Good<br>",
-        "e": "Excellent<br>",
+        "bad": "Below Average<br>",
+        "average": "Average<br>",
+        "good": "Good<br>",
+        "excellent": "Excellent<br>",
         "x": "Did not play defense"
       },
       "defaultValue": "x"
@@ -160,11 +145,9 @@ var config_data = `
       "choices": {
         "1": "1 (slow)<br>",
         "2": "2<br>",
-        "3": "3<br>",
-        "4": "4<br>",
         "5": "5 (fast)"
       },
-      "defaultValue":"3"
+      "defaultValue":"2"
     },
     { "name": "Died/Immobilized",
       "code": "die",
@@ -176,11 +159,6 @@ var config_data = `
     },
     { "name": "Dropped Notes (>2)",
       "code": "dn",
-      "type": "bool"
-    },
-    { "name": "Make good<br>alliance partner?",
-      "tooltip": "Would you want this robot on your alliance in eliminations?",
-      "code": "all",
       "type": "bool"
     },
     { "name": "Comments",
