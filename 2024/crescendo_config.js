@@ -108,7 +108,6 @@
     }
   ],
   "endgame": [
-   
     { "name": "Final Status",
       "code": "fs",
       "type":"radio",
@@ -128,7 +127,6 @@
     }
   ],
   "postmatch": [
-    
     { "name": "Defense Rating",
       "code": "dr",
       "type": "radio",
