@@ -1,13 +1,13 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "I Love Gibson's bald head",
+  "title": "Scouting PASS 2024",
   "page_title": "Crescendo",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
       "code": "s",
-      "type": "scouter", 
+      "type": "scouter",
       "size": 5,
       "maxSize": 5,
       "required": "true"
@@ -77,10 +77,6 @@ var config_data = `
       "code": "ass",
       "type": "counter"
     }
-    { "name": "Trap Scores",
-      "code": "bss",
-      "type": "counter"
-    }
   ],
   "teleop": [
     { "name": "Amp Scores",
@@ -99,24 +95,28 @@ var config_data = `
       "code": "tpu",
       "type": "radio",
       "choices": {
-        "source": "Source<br>",
-        "floor": "Floor<br>",
-        "both": "Both<br>",
+        "s": "Source<br>",
+        "f": "Floor<br>",
+        "b": "Both<br>",
         "x": "Not Attempted"
       },
       "defaultValue": "x"
     }
   ],
   "endgame": [
+    { "name": "Stage Timer",
+      "code": "dt",
+      "type": "timer"
+    },
     { "name": "Final Status",
       "code": "fs",
       "type":"radio",
       "choices": {
-        "parked": "Parked<br>",
-        "onstage": "Onstage<br>",
-        "spotlit": "Onstage (Spotlit)<br>",
-        "harmony": "Harmony<br>",
-        "attempted": "Attempted but failed<br>",
+        "p": "Parked<br>",
+        "o": "Onstage<br>",
+        "s": "Onstage (Spotlit)<br>",
+        "h": "Harmony<br>",
+        "a": "Attempted but failed<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
@@ -127,15 +127,26 @@ var config_data = `
     }
   ],
   "postmatch": [
+    { "name": "Driver Skill",
+      "code": "ds",
+      "type": "radio",
+      "choices": {
+        "n": "Not Effective<br>",
+        "a": "Average<br>",
+        "v": "Very Effective<br>",
+        "x": "Not Observed"
+      },
+      "defaultValue": "x"
+    },
     { "name": "Defense Rating",
       "code": "dr",
       "type": "radio",
       "choices": {
-        "low": "Below Average<br>",
-        "averge": "Average<br>",
-        "good": "Good<br>",
-        "great": "Excellent<br>",
-        "none": "Did not play defense"
+        "b": "Below Average<br>",
+        "a": "Average<br>",
+        "g": "Good<br>",
+        "e": "Excellent<br>",
+        "x": "Did not play defense"
       },
       "defaultValue": "x"
     },
@@ -145,9 +156,11 @@ var config_data = `
       "choices": {
         "1": "1 (slow)<br>",
         "2": "2<br>",
-        "3": "3 (fast)"
+        "3": "3<br>",
+        "4": "4<br>",
+        "5": "5 (fast)"
       },
-      "defaultValue":"2"
+      "defaultValue":"3"
     },
     { "name": "Died/Immobilized",
       "code": "die",
@@ -159,6 +172,11 @@ var config_data = `
     },
     { "name": "Dropped Notes (>2)",
       "code": "dn",
+      "type": "bool"
+    },
+    { "name": "Make good<br>alliance partner?",
+      "tooltip": "Would you want this robot on your alliance in eliminations?",
+      "code": "all",
       "type": "bool"
     },
     { "name": "Comments",
