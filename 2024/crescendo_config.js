@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2024",
-  "page_title": "Crescendo",
+  "page_title": "I love Gibson's bald head",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -75,6 +75,10 @@ var config_data = `
     },
     { "name": "Speaker Scores",
       "code": "ass",
+      "type": "counter"
+    }
+    { "name": "Trap Scores",
+      "code": "bss",
       "type": "counter"
     }
   ],
