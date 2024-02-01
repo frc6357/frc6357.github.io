@@ -1,4 +1,4 @@
- var config_data = `
+var config_data = `
 {
   "dataFormat": "tsv",
   "title": "I Love Gibson's bald head",
