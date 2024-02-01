@@ -76,9 +76,9 @@ var config_data = `
     { "name": "Speaker Scores",
       "code": "ass",
       "type": "counter"
-    }
+    },
     { "name": "Trap Scores",
-      "code": "bss",
+      "code": "yes",
       "type": "counter"
     }
   ],
