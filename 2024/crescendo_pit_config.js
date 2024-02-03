@@ -63,9 +63,9 @@ var config_data = `
       "code": "mot",
       "type": "radio",
       "choices": {
-        "n": "Neo<br>",
-        "f": "Falcon<br>",
-        "c": "CIM<br>",
+        "neo": "Neo<br>",
+        "falc": "Falcon<br>",
+        "cim": "CIM<br>",
         "x": "Other<br>"
       },
       "defaultValue":"x"
