@@ -1,4 +1,3 @@
-
 var config_data = `
 {
   "title": "Scouting PASS 2024",
