@@ -126,7 +126,7 @@ var config_data = `
     }
   ],
   "postmatch": [
-   { "name": "Played defense against",
+   { "name": "Played defense against team #",
       "code": "ta",
       "type": "team",
       "min": 1,
