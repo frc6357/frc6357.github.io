@@ -125,8 +125,8 @@ var config_data = `
       "type": "counter"
     }
   ],
-  "defense": [
-    { "name": "Played defense against",
+  "postmatch": [
+   { "name": "Played defense against",
       "code": "ta",
       "type": "team",
       "min": 1,
@@ -135,9 +135,7 @@ var config_data = `
     { "name": "fouls",
       "code": "fou",
       "type": "counter"
-    }
-  ],
-  "postmatch": [
+    },
     { "name": "Died/Immobilized",
       "code": "die",
       "type": "bool"
