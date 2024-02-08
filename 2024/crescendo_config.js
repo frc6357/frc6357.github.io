@@ -114,41 +114,30 @@ var config_data = `
       "choices": {
         "parked": "Parked<br>",
         "onsatge": "Onstage<br>",
-        "spotlit": "Onstage (Spotlit)<br>",
         "harmony": "Harmony<br>",
         "attempted": "Attempted but failed<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
     },
-    { "name": "Note in Trap",
+    { "name": "Trap scores",
       "code": "nit",
-      "type": "bool"
+      "type": "counter"
+    }
+  ],
+  "defense": [
+    { "name": "Played defense against",
+      "code": "ta",
+      "type": "team",
+      "min": 1,
+      "max": 99999
+    },
+    { "name": "fouls",
+      "code": "fou",
+      "type": "counter"
     }
   ],
   "postmatch": [
-    { "name": "Defense Rating",
-      "code": "dr",
-      "type": "radio",
-      "choices": {
-        "bad": "Below Average<br>",
-        "average": "Average<br>",
-        "good": "Good<br>",
-        "excellent": "Excellent<br>",
-        "x": "Did not play defense"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Speed Rating",
-      "code": "sr",
-      "type": "radio",
-      "choices": {
-        "1": "1 (slow)<br>",
-        "2": "2<br>",
-        "5": "5 (fast)"
-      },
-      "defaultValue":"2"
-    },
     { "name": "Died/Immobilized",
       "code": "die",
       "type": "bool"
