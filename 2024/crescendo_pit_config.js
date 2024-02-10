@@ -33,10 +33,10 @@ var config_data = `
       "code": "drv",
       "type": "radio",
       "choices": {
-        "s": "Swerve<br>",
-        "w": "West Coast/Tank<br>",
-        "m": "Mechanum<br>",
-        "o": "Other"
+        "swerve": "Swerve<br>",
+        "west": "West Coast/Tank<br>",
+        "mech": "Mechanum<br>",
+        "other": "Other"
       },
       "defaultValue": "o"
     },
