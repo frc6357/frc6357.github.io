@@ -70,7 +70,7 @@ var config_data = `
       },
       "defaultValue":"x"
     },
-    { "name": "# of Batteries",
+    { "name": "# of Motors",
       "code": "nob",
       "type": "number"
     },
