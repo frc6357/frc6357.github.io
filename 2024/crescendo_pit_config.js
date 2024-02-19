@@ -2,14 +2,14 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2024",
-  "page_title": "Pie is afraid of Evan",
+  "page_title": "Pit Scouting",
   "pitConfig": "true",
   "prematch": [
     { "name": "Team Number",
       "code": "t",
       "type": "number"
     },
-    { "name": "Width",
+    { "name": "Width (in)",
       "code": "wid",
       "type": "number",
       "defaultValue": "0"
@@ -19,7 +19,7 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
-    { "name": "Height",
+    { "name": "Height (in)",
       "code": "hei",
       "type": "number",
       "defaultValue": "0"
