@@ -144,7 +144,7 @@ var config_data = `
       "code": "tip",
       "type": "bool"
     },
-    { "name": "Dropped Notes (>2)",
+    { "name": "Missed/dropped notes (>2)",
       "code": "dn",
       "type": "bool"
     },
