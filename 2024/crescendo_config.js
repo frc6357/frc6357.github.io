@@ -114,6 +114,7 @@ var config_data = `
       "choices": {
         "parked": "Parked<br>",
         "onsatge": "Onstage<br>",
+        "climbed": "climb<br>",
         "harmony": "Harmony<br>",
         "attempted": "Attempted but failed<br>",
         "x": "Not attempted"
