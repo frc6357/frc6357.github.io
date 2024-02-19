@@ -99,10 +99,10 @@ var config_data = `
       "code": "tpu",
       "type": "radio",
       "choices": {
-        "s": "Source<br>",
-        "f": "Floor<br>",
-        "b": "Both<br>",
-        "x": "Not Attempted"
+        "source": "Source<br>",
+        "floor": "Floor<br>",
+        "both": "Both<br>",
+        "NA": "Not Attempted"
       },
       "defaultValue": "x"
     }
