@@ -125,6 +125,19 @@ var config_data = `
       "code": "nit",
       "type": "counter"
     }
+    { "name": "High note scores (If human player on team)",
+      "code": "hns",
+      "type": "radio",
+      "choices": {
+        "1": "1<br>",
+        "2": "2<br>",
+        "3": "3<br>",
+        "x": "NoHumanPlayer<br>",
+        "attempted": "Attempted but failed<br>",
+        "NA": "Not Attempted"
+      },
+      "defaultValue": "x"
+    }
   ],
   "postmatch": [
    { "name": "Played defense against team #",
