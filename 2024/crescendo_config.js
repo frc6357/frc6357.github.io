@@ -124,19 +124,6 @@ var config_data = `
     { "name": "Trap scores",
       "code": "nit",
       "type": "counter"
-    },
-    { "name": "High note scores (If human player on team)",
-      "code": "hns",
-      "type": "radio",
-      "choices": {
-        "1": "1<br>",
-        "2": "2<br>",
-        "3": "3<br>",
-        "NA": "NoHumanPlayer<br>",
-        "attempted": "Attempted but failed<br>",
-        "x": "Not Attempted"
-      },
-      "defaultValue": "x"
     }
   ],
   "postmatch": [
