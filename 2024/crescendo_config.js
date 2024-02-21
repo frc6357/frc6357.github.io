@@ -147,6 +147,10 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
+    { "name": "Played EFFECTIVE defense",
+      "code": "die",
+      "type": "bool"
+    },
     { "name": "fouls",
       "code": "fou",
       "type": "counter"
