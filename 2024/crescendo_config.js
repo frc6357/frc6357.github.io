@@ -132,7 +132,6 @@ var config_data = `
         "1": "1<br>",
         "2": "2<br>",
         "3": "3<br>",
-        "NA": "NoHumanPlayer<br>",
         "attempted": "Attempted but failed<br>",
         "x": "Not Attempted"
       },
