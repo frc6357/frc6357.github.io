@@ -148,7 +148,7 @@ var config_data = `
       "max": 99999
     },
     { "name": "Played EFFECTIVE defense",
-      "code": "die",
+      "code": "ped",
       "type": "bool"
     },
     { "name": "fouls",
