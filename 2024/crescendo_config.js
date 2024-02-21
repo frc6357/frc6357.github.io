@@ -125,7 +125,7 @@ var config_data = `
       "code": "nit",
       "type": "counter"
     },
-    { "name": "High note scores (If human player on team)",
+    { "name": "High note scores",
       "code": "hns",
       "type": "radio",
       "choices": {
