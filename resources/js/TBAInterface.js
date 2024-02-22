@@ -2,7 +2,7 @@
 var teams = null;
 var schedule = null;
 var eventCode = "2023txbel"
-var authKey = "uTHeEfPigDp9huQCpLNkWK7FBQIb01Qrzvt4MAjh9z2WQDkrsvNE77ch6bOPvPb6";
+var authKey = "ohnpjLNvzysqKFuCX6aWLtPNlgrc1gYom9Wj1oBiN6w4NXdFmNKI7X3AoNxHyVMh";
 /**
  * Get list of teams in event
  *
