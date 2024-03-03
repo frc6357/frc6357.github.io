@@ -24,7 +24,7 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
-    { "name": "Width",
+    { "name": "Weight",
       "code": "mah",
       "type": "number",
       "defaultValue": "0"
