@@ -24,7 +24,7 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
-    { "name": "Max Height",
+    { "name": "Length",
       "code": "mah",
       "type": "number",
       "defaultValue": "0"
