@@ -14,7 +14,7 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
-    { "name": "Weight",
+    { "name": "Length",
       "code": "wei",
       "type": "number",
       "defaultValue": "0"
@@ -24,7 +24,7 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
-    { "name": "Length",
+    { "name": "Width",
       "code": "mah",
       "type": "number",
       "defaultValue": "0"
