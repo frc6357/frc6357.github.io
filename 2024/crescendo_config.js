@@ -168,7 +168,7 @@ var config_data = `
     },
     { "name": "Missed notes",
       "code": "mn",
-      "type": "bool"
+      "type": "counter"
     },
     { "name": "Comments",
       "code": "co",
