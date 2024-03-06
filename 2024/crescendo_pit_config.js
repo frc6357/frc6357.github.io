@@ -46,18 +46,6 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
-    { "name": "Drivetrain Motor",
-      "code": "mot",
-      "type": "radio",
-      "choices": {
-        "neo": "Neo<br>",
-        "falc": "Falcon<br>",
-        "cim": "CIM<br>",
-        "kra": "Kraken<br>",
-        "x": "Other<br>",
-      },
-      "defaultValue":"x"
-    },
     { "name": "# of Motors",
       "code": "nob",
       "type": "number"
