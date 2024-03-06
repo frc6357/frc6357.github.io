@@ -58,18 +58,6 @@ var config_data = `
       },
       "defaultValue": "o"
     },
-    { "name": "Drivetrain Motor",
-      "code": "dtm",
-      "type": "radio",
-      "choices": {
-        "neo": "Neo<br>",
-        "falc": "Falcon<br>",
-        "cim": "CIM<br>",
-        "kra": "Kraken<br>",
-        "other": "Other",
-      },
-      "defaultValue": "x"
-    },
     { "name": "# of Motors",
       "code": "nob",
       "type": "number"
