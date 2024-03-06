@@ -46,14 +46,14 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
-    { "name": "Score from",
-      "code": "sfd",
+    { "name": "Score From",
+      "code": "spi",
       "type": "radio",
       "choices": {
-        "1": "Only Subwoofer<br>",
-        "2": "Only Away from Subwoofer<br>",
-        "3": "Both<br>",
-        "x": "Can't Score<br>",
+        "sub": "Subwoofer<br>",
+        "away": "Away from Subwoofer<br>",
+        "both": "Both<br>",
+        "x": "Can't Score in general<br>",
       },
       "defaultValue":"x"
     },
