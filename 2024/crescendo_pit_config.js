@@ -46,17 +46,6 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
-    { "name": "Score From",
-      "code": "spi",
-      "type": "radio",
-      "choices": {
-        "sub": "Subwoofer<br>",
-        "away": "Away from Subwoofer<br>",
-        "both": "Both<br>",
-        "x": "Can't Score in general<br>",
-      },
-      "defaultValue":"x"
-    },
     { "name": "# of Motors",
       "code": "nob",
       "type": "number"
