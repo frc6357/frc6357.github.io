@@ -95,8 +95,12 @@ var config_data = `
       "code": "nit",
       "type": "counter"
     },
-    { "name": "Times Amplified",
+    { "name": "Amplified speaker scores",
       "code": "tta",
+      "type": "counter"
+    },
+    { "name": "Shutteled Game Pieces",
+      "code": "sgp",
       "type": "counter"
     },
     { "name": "Pickup From",
