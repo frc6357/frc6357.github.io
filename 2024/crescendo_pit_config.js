@@ -54,7 +54,7 @@ var config_data = `
         "falc": "Falcon<br>",
         "cim": "CIM<br>",
         "kra": "Kraken<br>",
-        "x": "Other<br>",
+        "other": "Other<br>",
       },
       "defaultValue": "x"
     },
