@@ -46,6 +46,17 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
+    { "name": "Score From",
+      "code": "fsg",
+      "type": "radio",
+      "choices": {
+        "sub": "Swerve<br>",
+        "away": "West Coast/Tank<br>",
+        "both": "Mechanum<br>",
+        "cant": "Can not score in general"
+      },
+      "defaultValue": "x"
+    },
     { "name": "Drivetrain Motor",
       "code": "dtm",
       "type": "radio",
