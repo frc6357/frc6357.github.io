@@ -46,16 +46,14 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
-    { "name": "Swerve Ratio",
+    { "name": "Score from",
       "code": "sr",
       "type": "radio",
       "choices": {
-        "1": "L1 (8.14:1)<br>",
-        "2": "L2 (6.75:1)<br>",
-        "3": "L3 (6.12:1)<br>",
-        "4": "L4 (5.14:1)<br>",
-        "o": "Other ratio (put in comments)<br>",
-        "x": "Not Swerve"
+        "1": "Only Subwoofer<br>",
+        "2": "Only Away from Subwoofer<br>",
+        "3": "Both<br>",
+        "x": "Can't Score<br>",
       },
       "defaultValue":"x"
     },
@@ -66,6 +64,7 @@ var config_data = `
         "neo": "Neo<br>",
         "falc": "Falcon<br>",
         "cim": "CIM<br>",
+        "Kra": "Kraken<br>"",
         "x": "Other<br>"
       },
       "defaultValue":"x"
