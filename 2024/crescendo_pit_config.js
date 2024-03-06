@@ -57,7 +57,6 @@ var config_data = `
       },
       "defaultValue":"x"
     },
-
     { "name": "# of Motors",
       "code": "nob",
       "type": "number"
