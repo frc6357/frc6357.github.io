@@ -114,7 +114,6 @@ var config_data = `
       "choices": {
         "parked": "Parked<br>",
         "onsatge": "Onstage<br>",
-        "climbed": "climb<br>",
         "harmony": "Harmony<br>",
         "attempted": "Attempted but failed<br>",
         "x": "Not attempted"
@@ -133,7 +132,7 @@ var config_data = `
         "2": "2<br>",
         "3": "3<br>",
         "attempted": "Attempted but failed<br>",
-        "x": "Not Attempted"
+        "x": "No Human Player"
       },
       "defaultValue": "x"
     }
@@ -146,9 +145,11 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-    { "name": "Played EFFECTIVE defense",
-      "code": "ped",
-      "type": "bool"
+    { "name": "If defense, explain defense",
+      "code": "def",
+      "type": "text",
+      "size": 15,
+      "maxSize": 55
     },
     { "name": "fouls",
       "code": "fou",
