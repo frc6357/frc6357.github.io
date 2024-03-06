@@ -123,7 +123,7 @@ var config_data = `
         "parked": "Parked<br>",
         "onsatge": "Onstage<br>",
         "harmony": "Harmony<br>",
-        "attempted": "Attempted but failed<br>",
+        "attempted": "Attempted climb but failed<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
