@@ -46,6 +46,18 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
+    { "name": "Score from",
+      "code": "sfd",
+      "type": "radio",
+      "choices": {
+        "1": "Only Subwoofer<br>",
+        "2": "Only Away from Subwoofer<br>",
+        "3": "Both<br>",
+        "x": "Can't Score<br>",
+      },
+      "defaultValue":"x"
+    },
+
     { "name": "# of Motors",
       "code": "nob",
       "type": "number"
