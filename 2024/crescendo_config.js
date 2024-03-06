@@ -91,6 +91,10 @@ var config_data = `
       "code": "tss",
       "type": "counter"
     },
+    { "name": "Trap scores",
+      "code": "nit",
+      "type": "counter"
+    },
     { "name": "Times Amplified",
       "code": "tta",
       "type": "counter"
@@ -105,6 +109,10 @@ var config_data = `
         "NA": "Not Attempted"
       },
       "defaultValue": "x"
+    },
+    { "name": "Missed notes",
+      "code": "mn",
+      "type": "counter"
     }
   ],
   "endgame": [
@@ -119,10 +127,6 @@ var config_data = `
         "x": "Not attempted"
       },
       "defaultValue": "x"
-    },
-    { "name": "Trap scores",
-      "code": "nit",
-      "type": "counter"
     },
     { "name": "High note scores",
       "code": "hns",
@@ -166,10 +170,6 @@ var config_data = `
     { "name": "dropped notes (>2)",
       "code": "dn",
       "type": "bool"
-    },
-    { "name": "Missed notes",
-      "code": "mn",
-      "type": "counter"
     },
     { "name": "Comments",
       "code": "co",
