@@ -51,6 +51,18 @@ var config_data = `
       "type": "radio",
       "choices": {
         "neo": "Neo<br>",
+        "fal": "Falcon<br>",
+        "cim": "CIM<br>",
+        "kra": "Kraken<br>",
+        "other": "Other"
+      },
+      "defaultValue": "o"
+    },
+    { "name": "Drivetrain Motor",
+      "code": "dtm",
+      "type": "radio",
+      "choices": {
+        "neo": "Neo<br>",
         "falc": "Falcon<br>",
         "cim": "CIM<br>",
         "kra": "Kraken<br>",
