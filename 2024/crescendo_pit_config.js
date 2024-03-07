@@ -50,9 +50,9 @@ var config_data = `
       "code": "fsg",
       "type": "radio",
       "choices": {
-        "sub": "Swerve<br>",
-        "away": "West Coast/Tank<br>",
-        "both": "Mechanum<br>",
+        "sub": "Substation<br>",
+        "away": "away from substation<br>",
+        "both": "both<br>",
         "cant": "Can not score in general"
       },
       "defaultValue": "x"
