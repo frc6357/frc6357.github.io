@@ -50,8 +50,8 @@ var config_data = `
       "code": "fsg",
       "type": "radio",
       "choices": {
-        "sub": "Substation<br>",
-        "away": "away from substation<br>",
+        "sub": "Subwoofer<br>",
+        "away": "away from subwoofer<br>",
         "both": "both<br>",
         "cant": "Can not score in general"
       },
