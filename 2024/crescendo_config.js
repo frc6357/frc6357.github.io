@@ -114,7 +114,18 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Missed notes",
+    { "name": "Pickup From",
+      "code": "tpu",
+      "type": "radio",
+      "choices": {
+        "source": "Source<br>",
+        "floor": "Floor<br>",
+        "both": "Both<br>",
+        "NA": "Not Attempted"
+      },
+      "defaultValue": "x"
+    },
+   { "name": "Missed notes",
       "code": "mn",
       "type": "counter"
     }
