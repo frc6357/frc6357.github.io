@@ -114,12 +114,12 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Pickup From",
-      "code": "tpu",
+    { "name": "Scoring Position",
+      "code": "spo",
       "type": "radio",
       "choices": {
-        "source": "Source<br>",
-        "floor": "Floor<br>",
+        "at subwoofer": "Subwoofer<br>",
+        "away from subwoofer": "Away<br>",
         "both": "Both<br>",
         "NA": "Not Attempted"
       },
