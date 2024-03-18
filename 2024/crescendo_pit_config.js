@@ -14,7 +14,7 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
-    { "name": "Length",
+    { "name": "Length (in)",
       "code": "wei",
       "type": "number",
       "defaultValue": "0"
@@ -24,7 +24,12 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
-    { "name": "Weight",
+     { "name": " Extended Height (in)",
+      "code": "exh",
+      "type": "number",
+      "defaultValue": "0"
+    },
+    { "name": "Weight (pounds)",
       "code": "mah",
       "type": "number",
       "defaultValue": "0"
