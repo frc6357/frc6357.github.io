@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024txbel",
+      "defaultValue": "2024txdal",
       "required": "true"
     },
     { "name": "Match Level",
