@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2024txdal",
+      "defaultValue": "2024txcmp1",
       "required": "true"
     },
     { "name": "Match Level",
@@ -87,7 +87,7 @@ var config_data = `
       "code": "tas",
       "type": "counter"
     },
-    { "name": "Speaker Scores",
+    { "name": "Non-Amplified Speaker Scores",
       "code": "tss",
       "type": "counter"
     },
