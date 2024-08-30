@@ -129,12 +129,7 @@ var config_data = `
       "code": "mn",
       "type": "counter"
     },
-    { "name": "Played defense against team #",
-      "code": "ta",
-      "type": "team",
-      "min": 1,
-      "max": 99999
-    }
+
   ],
   "endgame": [
     { "name": "Final Status",
@@ -164,7 +159,12 @@ var config_data = `
 
   ],
   "postmatch": [
-  
+    { "name": "Played defense against team #",
+      "code": "ta",
+      "type": "team",
+      "min": 1,
+      "max": 99999
+    },
     { "name": "If defense, explain defense",
       "code": "def",
       "type": "text",
