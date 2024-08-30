@@ -98,6 +98,12 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
+    { "name": "Game peice recognition in auto",
+      "code": "gpr",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
+    },
     { "name": "Climb",
       "code": "cli",
       "type": "radio",
