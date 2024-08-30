@@ -5,8 +5,8 @@ var config_data = `
   "page_title": "6357 Crescendo",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials", 
-      "code": "s", 
+    { "name": "Scouter Initials",
+      "code": "s",
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
@@ -64,7 +64,7 @@ var config_data = `
       "shape": "circle 5 black red true"
     }
   ],
-  "auto": [
+  "auton": [
     { "name": "Leave Starting Zone",
       "code": "al",
       "type": "bool"
@@ -77,7 +77,7 @@ var config_data = `
       "code": "ass",
       "type": "counter"
     },
-    { "name": "Attempted Pickup, but failed",
+    { "name": "Attempted and Failed Pickup",
       "code": "wee",
       "type": "counter"
     }
@@ -155,9 +155,10 @@ var config_data = `
       },
       "defaultValue": "x"
     }
+
   ],
   "postmatch": [
-    { "name": "Played defense against team #",
+   { "name": "Played defense against team #",
       "code": "ta",
       "type": "team",
       "min": 1,
