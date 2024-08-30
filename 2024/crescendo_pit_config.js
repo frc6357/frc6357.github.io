@@ -5,7 +5,7 @@ var config_data = `
   "page_title": "Pit Scouting",
   "pitConfig": "true",
   "prematch": [
-    { "name": "Team Number",
+    { "name": "Team Number", 
       "code": "t",
       "type": "number"
     },
