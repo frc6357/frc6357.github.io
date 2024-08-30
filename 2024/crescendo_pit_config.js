@@ -115,7 +115,7 @@ var config_data = `
       },
       "defaultValue":"n"
     },
-    { "name": "Score AMP",
+    { "name": "Score AMP", 
       "code": "amp",
       "type": "bool"
     },
