@@ -6,7 +6,7 @@ var config_data = `
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials", 
-      "code": "s",
+      "code": "s", 
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
