@@ -99,7 +99,7 @@ var config_data = `
       "maxSize": 250
     },
     { "name": "Game peice recognition in auto",
-     "code": "gpr",
+      "code": "gpr",
       "type": "bool"
     },
     { "name": "Climb",
