@@ -77,7 +77,7 @@ var config_data = `
       "code": "ass",
       "type": "counter"
     },
-    { "name": "Trap Scores",
+    { "name": "Attempted Pickup, but failed",
       "code": "wee",
       "type": "counter"
     }
@@ -128,6 +128,12 @@ var config_data = `
    { "name": "Missed notes",
       "code": "mn",
       "type": "counter"
+    },
+    { "name": "Played defense against team #",
+      "code": "ta",
+      "type": "team",
+      "min": 1,
+      "max": 99999
     }
   ],
   "endgame": [
@@ -158,12 +164,7 @@ var config_data = `
 
   ],
   "postmatch": [
-   { "name": "Played defense against team #",
-      "code": "ta",
-      "type": "team",
-      "min": 1,
-      "max": 99999
-    },
+  
     { "name": "If defense, explain defense",
       "code": "def",
       "type": "text",
