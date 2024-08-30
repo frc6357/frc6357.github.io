@@ -98,7 +98,7 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
-    { "name": "Game peice recognition in auto",
+    { "name": "Piece recognition in auto",
       "code": "gpr",
       "type": "bool"
     },
