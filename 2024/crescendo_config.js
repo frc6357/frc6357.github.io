@@ -155,7 +155,6 @@ var config_data = `
       },
       "defaultValue": "x"
     }
-
   ],
   "postmatch": [
     { "name": "Played defense against team #",
