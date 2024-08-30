@@ -128,8 +128,7 @@ var config_data = `
    { "name": "Missed notes",
       "code": "mn",
       "type": "counter"
-    },
-
+    }
   ],
   "endgame": [
     { "name": "Final Status",
