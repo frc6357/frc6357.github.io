@@ -1,8 +1,8 @@
 var config_data = `
 {
   "dataFormat": "tsv",
-  "title": "Scouting PASS 2024",
-  "page_title": "6357 Crescendo",
+  "title": "Scouting PASS 2025",
+  "page_title": "6357 ReefScape 🪸",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
