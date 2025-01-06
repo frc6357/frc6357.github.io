@@ -71,13 +71,22 @@ var config_data = `
     },
     { "name": "Coral Scores",
       "code": "acs",
-      "type": "counter"
+      "type": "radio",
+      "choices": {
+        "Troft": "L1<br>",
+        "Troft 2x": "2L1<br>",
+        "Level 2": "L2<br>",
+        "Level 3": "L3<br>",
+        "Level 4": "L4<br>",
+        "NA": "Not Attempted"
+      },
+      "defaultValue": "x"
     },
     { "name": "Processor Scores",
       "code": "APS",
       "type": "counter"
     },
-    { "name": "Net",
+    { "name": "Net Scores",
       "code": "wee",
       "type": "counter"
     }
