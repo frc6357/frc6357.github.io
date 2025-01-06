@@ -69,15 +69,15 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-    { "name": "Amp Scores",
-      "code": "aas",
+    { "name": "Coral Scores",
+      "code": "acs",
       "type": "counter"
     },
-    { "name": "Speaker Scores",
-      "code": "ass",
+    { "name": "Processor Scores",
+      "code": "APS",
       "type": "counter"
     },
-    { "name": "Attempted and Failed Pickup",
+    { "name": "Net",
       "code": "wee",
       "type": "counter"
     }
