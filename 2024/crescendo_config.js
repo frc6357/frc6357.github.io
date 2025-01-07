@@ -157,9 +157,9 @@ var config_data = `
         "uno": "Protected<br>",
         "mult": "areas<br>",
         "tar": "team<br>",
-        "na": "Not attempted"
+        "x": "Not attempted"
       },
-      "defaultValue": "na"
+      "defaultValue": "x"
     },
     { "name": "If defense, did team appear to halt or delay the opponent from scoring?",
       "code": "ide",
