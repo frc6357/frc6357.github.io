@@ -172,8 +172,8 @@ var config_data = `
       "type":"radio",
       "choices": {
         "parked": "Parked<br>",
-        "onsatge": "Onstage<br>",
-        "harmony": "Harmony<br>",
+        "shallow": "shallow cage<br>",
+        "deep": "deep cage<br>",
         "attempted": "Attempted climb but failed<br>",
         "x": "Not attempted"
       },
