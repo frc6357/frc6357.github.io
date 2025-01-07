@@ -154,7 +154,7 @@ var config_data = `
       "code": "def",
       "type":"radio",
       "choices": {
-        "uno": "area<br>",
+        "uno": "protected<br>",
         "mult": "areas<br>",
         "tar": "team<br>",
         "x": "Not attempted"
