@@ -153,7 +153,18 @@ var config_data = `
      { "name": "fouls",
       "code": "fou",
       "type": "counter"
-    }
+    },
+     { "name": "Defense",
+      "code": "def",
+      "type":"radio",
+      "choices": {
+        "uno": "Protected a specic areas<br>",
+        "mult": "Protected multiple areas<br>",
+        "tar": "Focused on one team<br>",
+        "NA": "Not attempted"
+      },
+      "defaultValue": "x"
+    },
   ],
   "endgame": [
     { "name": "Final Status",
