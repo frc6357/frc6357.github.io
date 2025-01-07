@@ -123,6 +123,10 @@ var config_data = `
       "code": "net",
       "type": "counter"
     },
+     { "name": "Algae removed",
+      "code": "are",
+      "type": "counter"
+    },
     { "name": "Pickup From",
       "code": "tpu",
       "type": "radio",
@@ -134,20 +138,17 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Scoring Position",
-      "code": "spo",
-      "type": "radio",
-      "choices": {
-        "at subwoofer": "Subwoofer<br>",
-        "away from subwoofer": "Away<br>",
-        "both": "Both<br>",
-        "NA": "Not Attempted"
-      },
-      "defaultValue": "x"
-    },
-   { "name": "Missed notes",
+   { "name": "Missed Algae",
       "code": "mn",
       "type": "counter"
+    },
+     { "name": "Dropped Algae (>2)",
+      "code": "dra",
+      "type": "bool"
+    },
+     { "name": "Dropped Coral (>2)",
+      "code": "drc",
+      "type": "bool"
     }
   ],
   "endgame": [
