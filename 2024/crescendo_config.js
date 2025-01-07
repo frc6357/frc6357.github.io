@@ -188,6 +188,10 @@ var config_data = `
     { "name": "Died/Immobilized",
       "code": "die",
       "type": "bool"
+    },
+    { "name": "Tippy<br>(almost tipped over)",
+      "code": "til",
+      "type": "bool"
     }
   ]
 }`;
