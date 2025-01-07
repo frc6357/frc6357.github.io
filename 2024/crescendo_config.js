@@ -65,6 +65,10 @@ var config_data = `
     }
   ],
   "auto": [
+     { "name": "Leave Starting Zone",
+      "code": "al",
+      "type": "bool"
+    },
      { "name": "Coral Scores in Troft",
       "code": "aco",
       "type": "counter"
@@ -91,10 +95,6 @@ var config_data = `
     }
   ],
   "teleop": [
-     { "name": "Leave Starting Zone",
-      "code": "al",
-      "type": "bool"
-    },
      { "name": "Coral Scores in Troft",
       "code": "cst",
       "type": "counter"
@@ -135,7 +135,7 @@ var config_data = `
       "defaultValue": "x"
     },
    { "name": "Missed Algae",
-      "code": "mn",
+      "code": "mal",
       "type": "counter"
     },
      { "name": "Dropped Algae (>2)",
@@ -200,12 +200,6 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-    { "name": "If defense, explain defense",
-      "code": "def",
-      "type": "text",
-      "size": 15,
-      "maxSize": 55
-    },
     { "name": "Died/Immobilized",
       "code": "die",
       "type": "bool"
@@ -215,7 +209,7 @@ var config_data = `
       "type": "bool"
     },
     { "name": "dropped notes (>2)",
-      "code": "dn",
+      "code": "dno",
       "type": "bool"
     },
     { "name": "Comments",
