@@ -149,6 +149,10 @@ var config_data = `
      { "name": "Dropped Coral (>2)",
       "code": "drc",
       "type": "bool"
+    },
+     { "name": "fouls",
+      "code": "fou",
+      "type": "counter"
     }
   ],
   "endgame": [
@@ -190,10 +194,6 @@ var config_data = `
       "type": "text",
       "size": 15,
       "maxSize": 55
-    },
-    { "name": "fouls",
-      "code": "fou",
-      "type": "counter"
     },
     { "name": "Died/Immobilized",
       "code": "die",
