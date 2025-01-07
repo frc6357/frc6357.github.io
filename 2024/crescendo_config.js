@@ -92,24 +92,25 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Amp Scores",
-      "code": "tas",
+    { "name": "Coral Scores",
+      "code": "cor",
+      "type": "radio",
+      "choices": {
+        "Troft": "L1<br>",
+        "Troft 2x": "2L1<br>",
+        "Level 2": "L2<br>",
+        "Level 3": "L3<br>",
+        "Level 4": "L4<br>",
+        "NA": "Not Attempted"
+      },
+      "defaultValue": "x"
+    },
+    { "name": "Processor Scores",
+      "code": "Pro",
       "type": "counter"
     },
-    { "name": "Non-Amplified Speaker Scores",
-      "code": "tss",
-      "type": "counter"
-    },
-    { "name": "Trap scores",
-      "code": "nit",
-      "type": "counter"
-    },
-    { "name": "Amplified speaker scores",
-      "code": "tta",
-      "type": "counter"
-    },
-    { "name": "Shutteled Game Pieces",
-      "code": "sgp",
+    { "name": "Net Scores",
+      "code": "net",
       "type": "counter"
     },
     { "name": "Pickup From",
