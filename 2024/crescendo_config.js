@@ -191,32 +191,16 @@ var config_data = `
         "x": "No Human Player"
       },
       "defaultValue": "x"
-    }
-  ],
-  "postmatch": [
-   { "name": "Played defense against team #",
-      "code": "ta",
-      "type": "team",
-      "min": 1,
-      "max": 99999
-    },
-    { "name": "Died/Immobilized",
-      "code": "die",
-      "type": "bool"
     },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
       "type": "bool"
-    },
-    { "name": "dropped notes (>2)",
-      "code": "dno",
+    }
+  ],
+  "postmatch": [
+    { "name": "Died/Immobilized",
+      "code": "die",
       "type": "bool"
-    },
-    { "name": "Comments",
-      "code": "co",
-      "type": "text",
-      "size": 15,
-      "maxSize": 55
     }
   ]
 }`;
