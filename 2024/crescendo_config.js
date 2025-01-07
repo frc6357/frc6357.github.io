@@ -182,11 +182,19 @@ var config_data = `
     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
       "type": "bool"
+    },
+    { "name": "Temporarily Immobilized",
+      "code": "tem",
+      "type": "bool"
+    },
+    { "name": "Perminatly Immobilized",
+      "code": "per",
+      "type": "bool"
     }
   ],
   "postmatch": [
     { "name": "Died/Immobilized",
-      "code": "die",
+      "code": "dil",
       "type": "bool"
     }
   ]
