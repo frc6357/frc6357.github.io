@@ -117,7 +117,7 @@ var config_data = `
       "code": "tpu",
       "type": "radio",
       "choices": {
-        "source": "Source<br>",
+        "station": "station<br>",
         "floor": "Floor<br>",
         "both": "Both<br>",
         "NA": "Not Attempted"
