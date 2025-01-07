@@ -96,7 +96,7 @@ var config_data = `
   ],
   "teleop": [
      { "name": "Coral Scores in Troft",
-      "code": "cst",
+      "code": "csu",
       "type": "counter"
     },
      { "name": "Coral Scores level 2",
@@ -112,7 +112,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Processor Scores",
-      "code": "Pro",
+      "code": "pro",
       "type": "counter"
     },
     { "name": "Net Scores",
