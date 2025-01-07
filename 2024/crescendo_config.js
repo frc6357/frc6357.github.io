@@ -191,11 +191,5 @@ var config_data = `
       "code": "per",
       "type": "bool"
     }
-  ],
-  "postmatch": [
-    { "name": "Died/Immobilized",
-      "code": "dil",
-      "type": "bool"
-    }
   ]
 }`;
