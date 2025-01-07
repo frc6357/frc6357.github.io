@@ -154,14 +154,16 @@ var config_data = `
       "code": "def",
       "type":"radio",
       "choices": {
-        "uno": "Protected<br>",
-        "mult": "areas<br>",
-        "tar": "team<br>",
+        "uno": "Protected one area<br>",
+        "mult": "Protected multiple areas<br>",
+        "tar": "targeted one team<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
     },
-    { "name": "If defense, did team appear to halt or delay the opponent from scoring?",
+    { "name": "If defense, did team 
+    appear to halt or delay 
+    the opponent from scoring?",
       "code": "ide",
       "type": "bool"
     }
