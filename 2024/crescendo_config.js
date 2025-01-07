@@ -65,10 +65,6 @@ var config_data = `
     }
   ],
   "auto": [
-    { "name": "Leave Starting Zone",
-      "code": "al",
-      "type": "bool"
-    },
      { "name": "Coral Scores in Troft",
       "code": "aco",
       "type": "counter"
