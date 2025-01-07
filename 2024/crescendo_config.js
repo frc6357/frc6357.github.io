@@ -64,7 +64,7 @@ var config_data = `
       "shape": "circle 5 black red true"
     }
   ],
-  "auto": [
+  "auton": [
      { "name": "Leave Starting Zone",
       "code": "al",
       "type": "bool"
@@ -86,7 +86,7 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Processor Scores",
-      "code": "APS",
+      "code": "aps",
       "type": "counter"
     },
     { "name": "Net Scores",
@@ -134,7 +134,7 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-   { "name": "Missed Algae",
+    { "name": "Missed Algae",
       "code": "mal",
       "type": "counter"
     },
@@ -191,7 +191,6 @@ var config_data = `
       },
       "defaultValue": "x"
     }
-
   ],
   "postmatch": [
    { "name": "Played defense against team #",
