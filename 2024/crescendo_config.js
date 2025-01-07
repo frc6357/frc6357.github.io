@@ -179,18 +179,6 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "High note scores",
-      "code": "hns",
-      "type": "radio",
-      "choices": {
-        "1": "1<br>",
-        "2": "2<br>",
-        "3": "3<br>",
-        "attempted": "Attempted but failed<br>",
-        "x": "No Human Player"
-      },
-      "defaultValue": "x"
-    },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
       "type": "bool"
