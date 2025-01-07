@@ -161,8 +161,7 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "If defense, did team,
-    appear to halt or delay the opponent from scoring?",
+    { "name": "Did defense delay opponent from scoring?",
       "code": "ide",
       "type": "bool"
     }
