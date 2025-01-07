@@ -161,7 +161,7 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Defense delayed opponent's scoring?",
+    { "name": "Defense delayed opponent?",
       "code": "ide",
       "type": "bool"
     }
