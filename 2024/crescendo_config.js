@@ -156,7 +156,7 @@ var config_data = `
       "choices": {
         "one": "protected one location<br>",
         "multiple": "protected multiple locations<br>",
-        "team": "team<br>",
+        "team": "targeted individual team<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
