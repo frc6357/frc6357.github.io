@@ -64,30 +64,33 @@ var config_data = `
       "shape": "circle 5 black red true"
     }
   ],
-  "auton": [
+  "auto": [
     { "name": "Leave Starting Zone",
       "code": "al",
       "type": "bool"
     },
-    { "name": "Coral Scores",
+     { "name": "Coral Scores in Troft",
+      "code": "aco",
+      "type": "counter"
+    },
+     { "name": "Coral Scores level 2",
+      "code": "act",
+      "type": "counter"
+    },
+     { "name": "Coral scores level 3",
       "code": "acs",
-      "type": "radio",
-      "choices": {
-        "Troft": "L1<br>",
-        "Troft 2x": "2L1<br>",
-        "Level 2": "L2<br>",
-        "Level 3": "L3<br>",
-        "Level 4": "L4<br>",
-        "NA": "Not Attempted"
-      },
-      "defaultValue": "x"
+      "type": "counter"
+    },
+     { "name": "Coral scores level 4",
+      "code": "acf",
+      "type": "counter"
     },
     { "name": "Processor Scores",
       "code": "APS",
       "type": "counter"
     },
     { "name": "Net Scores",
-      "code": "wee",
+      "code": "ane",
       "type": "counter"
     }
   ],
