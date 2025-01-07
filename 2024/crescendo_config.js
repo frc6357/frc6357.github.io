@@ -95,18 +95,25 @@ var config_data = `
     }
   ],
   "teleop": [
-    { "name": "Coral Scores",
-      "code": "cor",
-      "type": "radio",
-      "choices": {
-        "Troft": "L1<br>",
-        "Troft 2x": "2L1<br>",
-        "Level 2": "L2<br>",
-        "Level 3": "L3<br>",
-        "Level 4": "L4<br>",
-        "NA": "Not Attempted"
-      },
-      "defaultValue": "x"
+     { "name": "Leave Starting Zone",
+      "code": "al",
+      "type": "bool"
+    },
+     { "name": "Coral Scores in Troft",
+      "code": "cst",
+      "type": "counter"
+    },
+     { "name": "Coral Scores level 2",
+      "code": "cos",
+      "type": "counter"
+    },
+     { "name": "Coral scores level 3",
+      "code": "cst",
+      "type": "counter"
+    },
+     { "name": "Coral scores level 4",
+      "code": "scf",
+      "type": "counter"
     },
     { "name": "Processor Scores",
       "code": "Pro",
@@ -120,7 +127,7 @@ var config_data = `
       "code": "tpu",
       "type": "radio",
       "choices": {
-        "station": "station<br>",
+        "station": "Station<br>",
         "floor": "Floor<br>",
         "both": "Both<br>",
         "NA": "Not Attempted"
