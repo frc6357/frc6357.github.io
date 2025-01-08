@@ -117,6 +117,18 @@ var config_data = `
       "code": "scr",
       "type": "bool"
     },
+     { "name": "Score in Processor", 
+      "code": "spi",
+      "type": "bool"
+    },
+     { "name": "Score in Net", 
+      "code": "sni",
+      "type": "bool"
+    },
+     { "name": "Remove Algae", 
+      "code": "rea",
+      "type": "bool"
+    },
     { "name": "Major Concerns",
       "code": "mc",
       "type": "text",
