@@ -129,6 +129,14 @@ var config_data = `
       "code": "rea",
       "type": "bool"
     },
+    { "name": "Unmodified Kit bot *DO NOT ASK*", 
+      "code": "kit",
+      "type": "bool"
+    },
+    { "name": "Unmodified Every bot *DO NOT ASK*", 
+      "code": "rea",
+      "type": "bool"
+    },
     { "name": "Major Concerns",
       "code": "mc",
       "type": "text",
