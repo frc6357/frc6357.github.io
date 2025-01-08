@@ -39,8 +39,7 @@ var config_data = `
       "type": "radio",
       "choices": {
         "swerve": "Swerve<br>",
-        "west": "West Coast/Tank<br>",
-        "mech": "Mechanum<br>",
+        "west": "Tank<br>",
         "other": "Other"
       },
       "defaultValue": "o"
