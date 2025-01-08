@@ -106,18 +106,6 @@ var config_data = `
       "code": "scr",
       "type": "bool"
     },
-    { "name": "Score AMP", 
-      "code": "amp",
-      "type": "bool"
-    },
-    { "name": "Score Speaker",
-      "code": "spe",
-      "type": "bool"
-    },
-    { "name": "Score Trap",
-      "code": "tra",
-      "type": "bool"
-    },
     { "name": "Major Concerns",
       "code": "mc",
       "type": "text",
