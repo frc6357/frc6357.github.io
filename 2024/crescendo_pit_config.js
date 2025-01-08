@@ -82,6 +82,7 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
+     { "name": "Climb"
       "code": "cli",
       "type": "radio",
       "choices": {
@@ -90,6 +91,8 @@ var config_data = `
         "both": "Both<br>",
         "none": "None<br>"
       },
+      "defaultValue":"n"
+    },
     { "name": "Floor pickup Coral",
       "code": "fpu",
       "type": "bool"
@@ -98,20 +101,25 @@ var config_data = `
       "code": "spu",
       "type": "bool"
     },
-    { "name": "Piece recognition in auto",
-      "code": "gpr",
+     { "name": "Score coral level 1", 
+      "code": "scq",
       "type": "bool"
     },
-    { "name": "Climb",
-      "code": "cli",
-      "type": "radio",
-      "choices": {
-        "inside": "Inside<br>",
-        "outside": "Outside<br>",
-        "both": "Both<br>",
-        "none": "None<br>"
-      },
-      "defaultValue":"n"
+     { "name": "Score coral level 2", 
+      "code": "scw",
+      "type": "bool"
+    },
+     { "name": "Score coral level 3", 
+      "code": "sce",
+      "type": "bool"
+    },
+     { "name": "Score coral level 4", 
+      "code": "scr",
+      "type": "bool"
+    },
+     { "name": "Score AMP", 
+      "code": "amp",
+      "type": "bool"
     },
     { "name": "Score AMP", 
       "code": "amp",
