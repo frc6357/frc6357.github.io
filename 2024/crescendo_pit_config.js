@@ -82,17 +82,6 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
-    { "name": "Climb"
-      "code": "cli",
-      "type": "radio",
-      "choices": {
-        "deep": "Deep<br>",
-        "shallow": "Shallow<br>",
-        "both": "Both<br>",
-        "none": "None<br>"
-      },
-      "defaultValue":"n"
-    },
     { "name": "Floor pickup Coral",
       "code": "fpu",
       "type": "bool"
