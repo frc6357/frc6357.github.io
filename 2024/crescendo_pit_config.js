@@ -117,10 +117,6 @@ var config_data = `
       "code": "scr",
       "type": "bool"
     },
-     { "name": "Score AMP", 
-      "code": "amp",
-      "type": "bool"
-    },
     { "name": "Score AMP", 
       "code": "amp",
       "type": "bool"
