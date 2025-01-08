@@ -146,7 +146,7 @@ var config_data = `
       "code": "drc",
       "type": "bool"
     },
-     { "name": "fouls",
+     { "name": "Fouls",
       "code": "fou",
       "type": "counter"
     },
