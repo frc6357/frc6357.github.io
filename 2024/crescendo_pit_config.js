@@ -72,12 +72,14 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
-    { "name": "Leave in auto",
-      "code": "lia",
-      "type": "bool"
+    { "name": "# of coral scored in auto",
+      "code": "aca",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
     },
-    { "name": "# of pieces scored in auto",
-      "code": "npa",
+      { "name": "# of pieces algae in auto",
+      "code": "aal",
       "type": "text",
       "size": 20,
       "maxSize": 250
