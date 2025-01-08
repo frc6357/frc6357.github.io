@@ -78,7 +78,7 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
-      { "name": "# of pieces algae in auto",
+      { "name": "# of algae scored in auto",
       "code": "aal",
       "type": "text",
       "size": 20,
