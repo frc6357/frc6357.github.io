@@ -187,7 +187,7 @@ var config_data = `
       "code": "tem",
       "type": "bool"
     },
-    { "name": "Perminatly Immobilized",
+    { "name": "Permanently Immobilized",
       "code": "per",
       "type": "bool"
     }
