@@ -76,19 +76,27 @@ var config_data = `
       "code": "lia",
       "type": "bool"
     },
-    { "name": "Floor pickup Notes",
-      "code": "fpu",
-      "type": "bool"
-    },
-    { "name": "Source pickup Notes",
-      "code": "spu",
-      "type": "bool"
-    },
     { "name": "Number of pieces scored in auto",
       "code": "npa",
       "type": "text",
       "size": 20,
       "maxSize": 250
+    },
+      "code": "cli",
+      "type": "radio",
+      "choices": {
+        "deep": "Deep<br>",
+        "shallow": "Shallow<br>",
+        "both": "Both<br>",
+        "none": "None<br>"
+      },
+    { "name": "Floor pickup Coral",
+      "code": "fpu",
+      "type": "bool"
+    },
+    { "name": "Station pickup Coral",
+      "code": "spu",
+      "type": "bool"
     },
     { "name": "Piece recognition in auto",
       "code": "gpr",
