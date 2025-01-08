@@ -76,11 +76,22 @@ var config_data = `
       "code": "lia",
       "type": "bool"
     },
-    { "name": "Number of pieces scored in auto",
+    { "name": "# of pieces scored in auto",
       "code": "npa",
       "type": "text",
       "size": 20,
       "maxSize": 250
+    },
+     { "name": "Climb",
+      "code": "clb",
+      "type": "radio",
+      "choices": {
+        "deep": "Deep<br>",
+        "shallow": "Shallow<br>",
+        "both": "Both<br>",
+        "none": "None"
+      },
+      "defaultValue": "n"
     },
     { "name": "Floor pickup Coral",
       "code": "fpu",
