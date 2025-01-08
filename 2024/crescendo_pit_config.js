@@ -50,17 +50,6 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
-    { "name": "Score From",
-      "code": "fsg",
-      "type": "radio",
-      "choices": {
-        "sub": "Subwoofer<br>",
-        "away": "away from subwoofer<br>",
-        "both": "both<br>",
-        "cant": "Can not score in general"
-      },
-      "defaultValue": "x"
-    },
     { "name": "Drivetrain Motor",
       "code": "dtm",
       "type": "radio",
@@ -77,6 +66,16 @@ var config_data = `
       "code": "nob",
       "type": "number"
     },
+    { "name": "# of Autos",
+      "code": "aut",
+      "type": "text",
+      "size": 20,
+      "maxSize": 250
+    },
+    { "name": "Leave in auto",
+      "code": "lia",
+      "type": "bool"
+    },
     { "name": "Floor pickup Notes",
       "code": "fpu",
       "type": "bool"
@@ -84,12 +83,6 @@ var config_data = `
     { "name": "Source pickup Notes",
       "code": "spu",
       "type": "bool"
-    },
-    { "name": "Number of Autos",
-      "code": "aut",
-      "type": "text",
-      "size": 20,
-      "maxSize": 250
     },
     { "name": "Number of pieces scored in auto",
       "code": "npa",
