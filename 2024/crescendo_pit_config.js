@@ -82,7 +82,7 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
-     { "name": "Climb"
+    { "name": "Climb"
       "code": "cli",
       "type": "radio",
       "choices": {
