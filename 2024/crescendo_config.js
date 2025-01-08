@@ -69,7 +69,7 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-     { "name": "Coral Scores in Trough",
+     { "name": "Coral Scores in trough",
       "code": "aco",
       "type": "counter"
     },
@@ -95,7 +95,7 @@ var config_data = `
     }
   ],
   "teleop": [
-     { "name": "Coral Scores in Trough",
+     { "name": "Coral Scores in trough",
       "code": "csu",
       "type": "counter"
     },
