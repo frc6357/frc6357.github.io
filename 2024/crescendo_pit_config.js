@@ -39,7 +39,7 @@ var config_data = `
       "type": "radio",
       "choices": {
         "swerve": "Swerve<br>",
-        "west": "Tank<br>",
+        "tank": "Tank<br>",
         "other": "Other"
       },
       "defaultValue": "o"
@@ -128,7 +128,7 @@ var config_data = `
       "type": "bool"
     },
      { "name": "Remove Algae", 
-      "code": "rea",
+      "code": "psr",
       "type": "bool"
     },
     { "name": "Unmodified Kit bot *DO NOT ASK*", 
@@ -136,7 +136,7 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Unmodified Every bot *DO NOT ASK*", 
-      "code": "rea",
+      "code": "ueb",
       "type": "bool"
     },
     { "name": "Major Concerns",
