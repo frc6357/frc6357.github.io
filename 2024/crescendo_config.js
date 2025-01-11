@@ -124,15 +124,15 @@ var config_data = `
       "type": "counter"
     },
     { "name": "Pickup From",
-      "code": "tpu",
+      "code": "tpf",
       "type": "radio",
       "choices": {
         "station": "Station<br>",
         "floor": "Floor<br>",
         "both": "Both<br>",
-        "NA": "Not Attempted"
+        "na": "Not Attempted"
       },
-      "defaultValue": "x"
+      "defaultValue": "na"
     },
     { "name": "Missed Algae",
       "code": "mal",
@@ -157,9 +157,9 @@ var config_data = `
         "one": "protected one location<br>",
         "multiple": "protected multiple locations<br>",
         "team": "targeted specific team<br>",
-        "x": "Not attempted"
+        "na": "Not attempted"
       },
-      "defaultValue": "x"
+      "defaultValue": "na"
     },
     { "name": "Defense delayed opponent?",
       "code": "ide",
@@ -175,9 +175,9 @@ var config_data = `
         "shallow": "shallow cage<br>",
         "deep": "deep cage<br>",
         "attempted": "Attempted climb but failed<br>",
-        "x": "Not attempted"
+        "na": "Not attempted"
       },
-      "defaultValue": "x"
+      "defaultValue": "na"
     },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
