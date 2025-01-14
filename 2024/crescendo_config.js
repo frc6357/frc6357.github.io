@@ -92,6 +92,17 @@ var config_data = `
     { "name": "Net Scores",
       "code": "ane",
       "type": "counter"
+    },
+    { "name": "Pickup From",
+      "code": "apf",
+      "type": "radio",
+      "choices": {
+        "station": "Station<br>",
+        "floor": "Floor<br>",
+        "both": "Both<br>",
+        "na": "Not Attempted"
+      },
+      "defaultValue": "na"
     }
   ],
   "teleop": [
