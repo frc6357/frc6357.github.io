@@ -197,7 +197,7 @@ var config_data = `
       "type": "bool"
     },
     { "name": "Temporarily Immobilized",
-      "code": "tem",
+      "code": "tei",
       "type": "bool"
     },
     { "name": "Permanently Immobilized",
