@@ -19,7 +19,7 @@ var config_data = `
       "type": "number",
       "defaultValue": "0"
     },
-    { "name": "Height (in)",
+    { "name": "Starting Height (in)",
       "code": "hei",
       "type": "number",
       "defaultValue": "0"
@@ -50,7 +50,7 @@ var config_data = `
       "size": 20,
       "maxSize": 50
     },
-    { "name": "Drivetrain Motor",
+    { "name": "Drive Motor",
       "code": "dtm",
       "type": "radio",
       "choices": {
@@ -72,13 +72,13 @@ var config_data = `
       "size": 20,
       "maxSize": 250
     },
-    { "name": "# of coral scored in auto",
+    { "name": "Highest # of coral scored in auto",
       "code": "aca",
       "type": "text",
       "size": 20,
       "maxSize": 250
     },
-      { "name": "# of algae scored in auto",
+      { "name": "Highest # of algae scored in auto",
       "code": "aal",
       "type": "text",
       "size": 20,
@@ -129,14 +129,6 @@ var config_data = `
     },
      { "name": "Remove Algae", 
       "code": "psr",
-      "type": "bool"
-    },
-    { "name": "Unmodified Kit bot *DO NOT ASK*", 
-      "code": "kit",
-      "type": "bool"
-    },
-    { "name": "Unmodified Every bot *DO NOT ASK*", 
-      "code": "ueb",
       "type": "bool"
     },
     { "name": "Major Concerns",
