@@ -162,7 +162,7 @@ var config_data = `
       "type": "counter"
     }
   ],
-  "endgame": [
+  "post-match": [
     { "name": "Defense",
       "code": "def",
       "type":"radio",
