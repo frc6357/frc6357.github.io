@@ -160,8 +160,10 @@ var config_data = `
      { "name": "Fouls",
       "code": "fou",
       "type": "counter"
-    },
-     { "name": "Defense",
+    }
+  ],
+  "endgame": [
+    { "name": "Defense",
       "code": "def",
       "type":"radio",
       "choices": {
@@ -175,9 +177,7 @@ var config_data = `
     { "name": "Defense delayed opponent?",
       "code": "ide",
       "type": "bool"
-    }
-  ],
-  "endgame": [
+    },
     { "name": "Final Status",
       "code": "fs",
       "type":"radio",
@@ -189,8 +189,10 @@ var config_data = `
         "na": "Not attempted"
       },
       "defaultValue": "na"
-    },
-    { "name": "Tippy<br>(almost tipped over)",
+    }
+  ],
+   "Postmatch": [
+     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
       "type": "bool"
     },
@@ -202,6 +204,5 @@ var config_data = `
       "code": "per",
       "type": "bool"
     }
-  ],
-   "Misk": [
+   ]
 }`;
