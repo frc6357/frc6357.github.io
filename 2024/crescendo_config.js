@@ -191,7 +191,7 @@ var config_data = `
       "defaultValue": "na"
     }
   ],
-   "Miscellaneous": [
+   "postmatch": [
      { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
       "type": "bool"
