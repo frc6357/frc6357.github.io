@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2025",
-  "page_title": "63571 Reefscape 🪸",
+  "page_title": "6357 Reefscape 🪸",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -191,7 +191,7 @@ var config_data = `
       "defaultValue": "na"
     }
   ],
-   "Post-match": [
+   "Postmatch": [
      { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
       "type": "bool"
