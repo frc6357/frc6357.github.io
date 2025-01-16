@@ -68,6 +68,9 @@ var config_data = `
      { "name": "Leave Starting Zone",
       "code": "al",
       "type": "bool"
+      "name": "Coral Scores in trough",
+      "code": "gfd",
+      "type": "counter"
     },
      { "name": "Coral Scores in trough",
       "code": "aco",
