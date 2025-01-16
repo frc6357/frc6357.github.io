@@ -106,9 +106,7 @@ var config_data = `
         "na": "Not Attempted"
       },
       "defaultValue": "na"
-    }
-  ],
-  "teleop": [
+    },
      { "name": "Coral Scores in trough",
       "code": "csu",
       "type": "counter"
