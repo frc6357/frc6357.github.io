@@ -73,7 +73,9 @@ var config_data = `
     },
      { "name": "Coral Scores in trough",
       "code": "aco",
-      "type": "counter"
+      "type": "counter",
+      "x": 87,
+      "y": 60,
     },
      { "name": "Coral Scores level 2",
       "code": "act",
