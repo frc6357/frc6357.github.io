@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2025",
-  "page_title": "63574 Reefscape 🪸",
+  "page_title": "63575 Reefscape 🪸",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -54,8 +54,6 @@ var config_data = `
       "type": "team",
       "min": 1,
       "max": 99999
-      "x": 78,
-      "y": 97,
     },
     { "name": "Auto Start Position",
       "code": "as",
@@ -69,7 +67,9 @@ var config_data = `
   "auton": [
      { "name": "Leave Starting Zone",        
       "code": "al",
-      "type": "bool"
+      "type": "bool",
+      "x": 78,
+      "y": 97,
     },
      { "name": "Coral Scores in trough",
       "code": "aco",
