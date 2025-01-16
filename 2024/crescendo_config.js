@@ -29,6 +29,9 @@ var config_data = `
       "defaultValue": "qm",
       "required": "true"
     },
+    x=34,
+    y=98,
+    },
     { "name": "Match #",
       "code": "m",
       "type": "match",
