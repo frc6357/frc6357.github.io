@@ -27,10 +27,9 @@ var config_data = `
         "f": "Finals"
       },
       "defaultValue": "qm",
-      "required": "true"
-    },
-    x=34,
-    y=98,
+      "required": "true",
+       "x": 34,
+       "y": 98,
     },
     { "name": "Match #",
       "code": "m",
