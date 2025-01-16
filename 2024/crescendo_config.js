@@ -67,10 +67,7 @@ var config_data = `
   "auton": [
      { "name": "Leave Starting Zone",        
       "code": "al",
-      "type": "bool",
-      "name": "Coral Scores in trough",
-      "code": "gfd",
-      "type": "counter"
+      "type": "bool"
     },
      { "name": "Coral Scores in trough",
       "code": "aco",
