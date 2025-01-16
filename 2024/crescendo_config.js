@@ -36,8 +36,6 @@ var config_data = `
       "max": 150,
       "required": "true"
     },
-    "x": 78
-    "y": 97
     { "name": "Robot",
       "code": "r",
       "type": "robot",
@@ -56,6 +54,8 @@ var config_data = `
       "type": "team",
       "min": 1,
       "max": 99999
+      "x": 78,
+      "y": 97,
     },
     { "name": "Auto Start Position",
       "code": "as",
