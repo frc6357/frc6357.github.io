@@ -27,7 +27,7 @@ var config_data = `
         "f": "Finals"
       },
       "defaultValue": "qm",
-      "required": "true",
+      "required": "true"
     },
     { "name": "Match #",
       "code": "m",
@@ -65,13 +65,13 @@ var config_data = `
     }
   ],
   "auton": [
-     { "name": "Leave Starting Zone",        
+     { "name": "Leave Starting Zone",
       "code": "al",
-      "type": "bool",
+      "type": "bool"
     },
      { "name": "Coral Scores in trough",
       "code": "aco",
-      "type": "counter",
+      "type": "counter"
     },
      { "name": "Coral Scores level 2",
       "code": "act",
@@ -103,7 +103,9 @@ var config_data = `
         "na": "Not Attempted"
       },
       "defaultValue": "na"
-    },
+    }
+  ],
+  "teleop": [
      { "name": "Coral Scores in trough",
       "code": "csu",
       "type": "counter"
