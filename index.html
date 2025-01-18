@@ -33,23 +33,45 @@
 					<table id="auton_table">
        					<tbody>
     <tr>
-        <td class="title">Leave Starting Zone&nbsp;</td>
-        <td class="field"><input id="input_al" type="checkbox" name="al">(checked = Yes)</td>
         <td class="title">Coral Scores in trough&nbsp;</td>
         <td class="field">
             <input type="button" id="minus_aco" onclick="counter(this.parentElement, -1)" value="-">
             <input class="counter" id="input_aco" type="text" name="aco" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
             <input type="button" id="plus_aco" onclick="counter(this.parentElement, 1)" value="+">
         </td>
-        <td class="title">Coral Scores level 2&nbsp;</td>
+        <td class="title">Coral Scores in trough&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_csu" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_csu" type="text" name="csu" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_csu" onclick="counter(this.parentElement, 1)" value="+">
+		
+       </tr>
+		<td class="title">Coral Scores level 2&nbsp;</td>
         <td class="field">
             <input type="button" id="minus_act" onclick="counter(this.parentElement, -1)" value="-">
             <input class="counter" id="input_act" type="text" name="act" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
             <input type="button" id="plus_act" onclick="counter(this.parentElement, 1)" value="+">
-        </td><td class="title">Coral scores level 3&nbsp;</td>
-        <td class="field"><input type="button" id="minus_acs" onclick="counter(this.parentElement, -1)" value="-"><input class="counter" id="input_acs" type="text" name="acs" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2"><input type="button" id="plus_acs" onclick="counter(this.parentElement, 1)" value="+"></td>
+        </td>
+        <td class="title">Coral Scores level 2&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_cos" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_cos" type="text" name="cos" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_cos" onclick="counter(this.parentElement, 1)" value="+">	
+
+	</tr>
+						
+	<td class="title">Coral scores level 3&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_acs" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_acs" type="text" name="acs" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_acs" onclick="counter(this.parentElement, 1)" value="+">
+        </td>
+        <td class="title">Coral scores level 3&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_cst" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_cst" type="text" name="cst" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_cst" onclick="counter(this.parentElement, 1)" value="+">
     
-    </tr>
 					<!-- ###AUTON-COMPONENTS###-->
 				</table>
 					<p class="match-label"><input type="button" value="Prev" id="prevButton2" onclick="swipePage(-1)"> <input type="button" value="Next" id="nextButton4" onclick="swipePage(1)"></p>
