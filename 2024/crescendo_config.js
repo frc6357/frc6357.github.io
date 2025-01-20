@@ -183,8 +183,8 @@ var config_data = `
       "type":"radio",
       "choices": {
         "parked": "Parked<br>",
-        "shallow": "shallow cage<br>",
-        "deep": "deep cage<br>",
+        "shallow": "Shallow Cage<br>",
+        "deep": "Deep Cage<br>",
         "attempted": "Attempted climb but failed<br>",
         "na": "Not attempted"
       },
