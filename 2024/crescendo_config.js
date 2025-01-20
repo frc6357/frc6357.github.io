@@ -70,63 +70,6 @@ var config_data = `
       "type": "bool"
     }
   ],
-  "teleop": [
-     { "name": "Coral Scores in trough",
-      "code": "csu",
-      "type": "counter"
-    },
-     { "name": "Coral Scores level 2",
-      "code": "cos",
-      "type": "counter"
-    },
-     { "name": "Coral scores level 3",
-      "code": "cst",
-      "type": "counter"
-    },
-     { "name": "Coral scores level 4",
-      "code": "scf",
-      "type": "counter"
-    },
-    { "name": "Processor Scores",
-      "code": "pro",
-      "type": "counter"
-    },
-    { "name": "Net Scores",
-      "code": "net",
-      "type": "counter"
-    },
-     { "name": "Algae removed",
-      "code": "are",
-      "type": "counter"
-    },
-    { "name": "Pickup From",
-      "code": "tpf",
-      "type": "radio",
-      "choices": {
-        "station": "Station<br>",
-        "floor": "Floor<br>",
-        "both": "Both<br>",
-        "na": "Not Attempted"
-      },
-      "defaultValue": "na"
-    },
-    { "name": "Missed Algae",
-      "code": "mal",
-      "type": "counter"
-    },
-     { "name": "Dropped Algae (>2)",
-      "code": "dra",
-      "type": "bool"
-    },
-     { "name": "Dropped Coral (>2)",
-      "code": "drc",
-      "type": "bool"
-    },
-     { "name": "Fouls",
-      "code": "fou",
-      "type": "counter"
-    }
-  ],
   "endgame": [
     { "name": "Defense",
       "code": "def",
