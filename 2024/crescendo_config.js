@@ -69,41 +69,6 @@ var config_data = `
       "code": "al",
       "type": "bool"
     },
-     { "name": "Coral Scores in trough",
-      "code": "aco",
-      "type": "counter"
-    },
-     { "name": "Coral Scores level 2",
-      "code": "act",
-      "type": "counter"
-    },
-     { "name": "Coral scores level 3",
-      "code": "acs",
-      "type": "counter"
-    },
-     { "name": "Coral scores level 4",
-      "code": "acf",
-      "type": "counter"
-    },
-    { "name": "Processor Scores",
-      "code": "aps",
-      "type": "counter"
-    },
-    { "name": "Net Scores",
-      "code": "ane",
-      "type": "counter"
-    },
-    { "name": "Pickup From",
-      "code": "apf",
-      "type": "radio",
-      "choices": {
-        "station": "Station<br>",
-        "floor": "Floor<br>",
-        "both": "Both<br>",
-        "na": "Not Attempted"
-      },
-      "defaultValue": "na"
-    }
   ],
   "teleop": [
      { "name": "Coral Scores in trough",
