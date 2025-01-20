@@ -32,7 +32,7 @@
 					<p class="match-label"><input type="button" value="Prev" id="prevButton1" onclick="swipePage(-1)"><input type="button" value="Next" id="nextButton3" onclick="swipePage(1)"></p>
 					<table id="auton_table">
        					<tbody1>
-						
+
     <tr>
          <td class="title">Auto Scoring&nbsp;</td>
 	<td style="color: rgb(186, 58, 218);"></td>
@@ -40,7 +40,7 @@
         <td class="title">Tele Scoring&nbsp;</td>
     </td>
         <td class="title">Tele&nbsp;</td>
-  
+
     <tr>
         <td class="title">Coral Scores in trough&nbsp;</td>
         <td class="field">
@@ -59,7 +59,7 @@
             <input type="button" id="minus_are" onclick="counter(this.parentElement, -1)" value="-">
             <input class="counter" id="input_are" type="text" name="are" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
             <input type="button" id="plus_are" onclick="counter(this.parentElement, 1)" value="+">
-		
+
        </tr>
 		<td class="title">Coral Scores level 2&nbsp;</td>
         <td class="field">
@@ -79,7 +79,7 @@
             <input class="counter" id="input_mal" type="text" name="mal" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
             <input type="button" id="plus_mal" onclick="counter(this.parentElement, 1)" value="+">
 	</tr>
-						
+
 	<td class="title">Coral scores level 3&nbsp;</td>
         <td class="field">
             <input type="button" id="minus_acs" onclick="counter(this.parentElement, -1)" value="-">
@@ -93,28 +93,19 @@
             <input type="button" id="plus_cst" onclick="counter(this.parentElement, 1)" value="+">
 	</td>
 	<td class="title">Dropped Algae (>2)&nbsp;</td>
+        <td class="field">
         <td class="field"><input id="input_dra" type="checkbox" name="dra">(checked = Yes)
 
 		</tr>
 						
-	<td class="title">Coral scores level 4&nbsp;</td>
-        <td class="field">
-            <input type="button" id="minus_acf" onclick="counter(this.parentElement, -1)" value="-">
-            <input class="counter" id="input_acf" type="text" name="acf" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
-            <input type="button" id="plus_acf" onclick="counter(this.parentElement, 1)" value="+">
-        </td>
-        <td class="title">Coral scores level 4&nbsp;</td>
-        <td class="field">
-            <input type="button" id="minus_scf" onclick="counter(this.parentElement, -1)" value="-">
             <input class="counter" id="input_scf" type="text" name="scf" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
             <input type="button" id="plus_scf" onclick="counter(this.parentElement, 1)" value="+">
         </td>
 	<td class="title">Dropped Coral (>2)&nbsp;</td>
         <td class="field"><input id="input_drc" type="checkbox" name="drc">(checked = Yes)
 
+        </tr>
 
-		</tr>
-						
 	<td class="title">Processor Scores&nbsp;</td>
         <td class="field">
             <input type="button" id="minus_aps" onclick="counter(this.parentElement, -1)" value="-">
@@ -135,7 +126,7 @@
 
 
 		</tr>
-						
+
 	<td class="title">Net&nbsp;</td>
         <td class="field">
             <input type="button" id="minus_ane" onclick="counter(this.parentElement, -1)" value="-">
@@ -158,7 +149,7 @@
        <input id="display_fs" hidden="" value=""><input id="default_fs" type="hidden" value="na">
 
 </tr>
-						
+
    <td class="title">Pickup From&nbsp;</td>
    <td class="field">
        <input id="input_apf_station" type="radio" name="apf" value="station">Station<br>
@@ -180,30 +171,40 @@
 					<p class="match-label"><input type="button" value="Prev" id="prevButton2" onclick="swipePage(-1)"> <input type="button" value="Next" id="nextButton4" onclick="swipePage(1)"></p>
 				</div>
 
+				<div id="teleop" class="main-panel" style="background-color: rgb(204, 153, 255);">
+					<h1 id="teleopHeader1" class="page_title"><span class="odd">P</span><span class="even">W</span><span class="odd">n</span><span class="even">A</span><span class="odd">G</span><span class="even">E</span><br>Scouting 2020</h1>
+					<h2 id="teleopHeader2" >Teleop</h2>
+					<p class="match-label"><input type="button" value="Prev" id="prevButton3" onclick="swipePage(-1)"><input type="button" value="Next" id="nextButton5" onclick="swipePage(1)"></p>
+					<table id="teleop_table">
+						<!-- ###TELEOP-COMPONENTS###-->
+					</table>
+					<p class="match-label"><input type="button" value="Prev" id="prevButton4" onclick="swipePage(-1)"> <input type="button" value="Next" id="nextButton6" onclick="swipePage(1)"></p>
+				</div>
+
 				<div id="endgame" class="main-panel" style="background-color: rgb(204, 255, 153);">
 					<h1 id="endgameHeader1" class="page_title"><span class="odd">P</span><span class="even">W</span><span class="odd">n</span><span class="even">A</span><span class="odd">G</span><span class="even">E</span><br>Scouting 2020</h1>
 					<h2 id="endgameHeader2">Endgame</h2>
-					<p class="match-label"><input type="button" value="Prev" id="prevButton3" onclick="swipePage(-1)"><input type="button" value="Next" id="nextButton5" onclick="swipePage(1)"></p>
+					<p class="match-label"><input type="button" value="Prev" id="prevButton5" onclick="swipePage(-1)"><input type="button" value="Next" id="nextButton7" onclick="swipePage(1)"></p>
 					<table id="endgame_table">
 						<!-- ###ENDGAME-COMPONENTS###-->
 					</table>
-					<p class="match-label"><input type="button" value="Prev" id="prevButton4" onclick="swipePage(-1)"> <input type="button" value="Next" id="nextButton6" onclick="swipePage(1)"></p>
+					<p class="match-label"><input type="button" value="Prev" id="prevButton6" onclick="swipePage(-1)"> <input type="button" value="Next" id="nextButton8" onclick="swipePage(1)"></p>
 				</div>
 
 				<div id="post-match" class="main-panel" style="background-color: rgb(199, 140, 140);">
 					<h1 id="postmatchHeader" class="page_title"><span class="odd">P</span><span class="even">W</span><span class="odd">n</span><span class="even">A</span><span class="odd">G</span><span class="even">E</span><br>Scouting 2020</h1>
 					<h2>Extra information</h2>
-					<p class="match-label"><input type="button" value="Prev" id="prevButton5" onclick="swipePage(-1)"><input type="button" value="Next" id="nextButton7" onclick="swipePage(1)"></p>
+					<p class="match-label"><input type="button" value="Prev" id="prevButton7" onclick="swipePage(-1)"><input type="button" value="Next" id="nextButton9" onclick="swipePage(1)"></p>
 					<table id="postmatch_table">
 						<!-- ###POST-MATCH-COMPONENTS###-->
 					</table>
-					<p class="match-label"><input type="button" value="Prev" id="prevButton6" onclick="swipePage(-1)"> <input type="button" value="Next" id="nextButton8" onclick="swipePage(1)"></p>
+					<p class="match-label"><input type="button" value="Prev" id="prevButton8" onclick="swipePage(-1)"> <input type="button" value="Next" id="nextButton10" onclick="swipePage(1)"></p>
 				</div>
 
 				<div id="qr-code" class="main-panel" style="background-color: white;">
 					<h1 id="qrHeader1" class="page_title"><span class="odd">P</span><span class="even">W</span><span class="odd">n</span><span class="even">A</span><span class="odd">G</span><span class="even">E</span><br>Scouting 2020</h1>
 					<h2 id="qrHeader2">Generate QR Code</h2>
-					<p class="match-label"><input type="button" value="Prev" id="prevButton7" onclick="swipePage(-1)"></p>
+					<p class="match-label"><input type="button" value="Prev" id="prevButton9" onclick="swipePage(-1)"></p>
 					<p id="qr-info"><span id="display_qr-info" style="border: none; text-align: center;"></span></p>
 					<table id="qr-table"><tr><td width="5%">&nbsp;</td><td width="90%">
 						<div id="qrcode" style="text-align:center">
@@ -235,3 +236,4 @@
 		</form>
 	</body>
 </html>
+
