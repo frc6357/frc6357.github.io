@@ -151,8 +151,17 @@
             <input type="button" id="minus_net" onclick="counter(this.parentElement, -1)" value="-">
             <input class="counter" id="input_net" type="text" name="net" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
             <input type="button" id="plus_net" onclick="counter(this.parentElement, 1)" value="+">
+	</td>
+       <td class="title">Final Status&nbsp;</td>
+       <td class="field">
+       <input id="input_fs_parked" type="radio" name="fs" value="parked">Parked<br>
+       <input id="input_fs_shallow" type="radio" name="fs" value="shallow">Shallow Cage<br>
+       <input id="input_fs_deep" type="radio" name="fs" value="deep">Deep Cage<br>
+       <input id="input_fs_attempted" type="radio" name="fs" value="attempted">Attempted climb but failed<br>
+       <input id="input_apf_na" type="radio" name="apf" value="na" checked="">Not attempted
+       <input id="display_fs" hidden="" value=""><input id="default_fs" type="hidden" value="na">
 
-		</tr>
+</tr>
 						
    <td class="title">Pickup From&nbsp;</td>
    <td class="field">
