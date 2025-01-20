@@ -68,7 +68,7 @@ var config_data = `
      { "name": "Leave Starting Zone",
       "code": "al",
       "type": "bool"
-    },
+    }
   ],
   "teleop": [
      { "name": "Coral Scores in trough",
