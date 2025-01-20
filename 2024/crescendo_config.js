@@ -72,7 +72,7 @@ var config_data = `
   ],
   "teleop": [
   ],
-  "endgame": [
+  "Post-match": [
     { "name": "Defense",
       "code": "def",
       "type":"radio",
