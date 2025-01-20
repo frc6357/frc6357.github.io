@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2025",
-  "page_title": "63572 Reefscape 🪸",
+  "page_title": "6357 Reefscape 🪸",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -69,6 +69,8 @@ var config_data = `
       "code": "al",
       "type": "bool"
     }
+  ],
+  "teleop": [
   ],
   "endgame": [
     { "name": "Defense",
