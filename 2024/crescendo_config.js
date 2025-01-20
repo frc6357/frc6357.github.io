@@ -143,20 +143,6 @@ var config_data = `
       "code": "ide",
       "type": "bool"
     },
-    { "name": "Final Status",
-      "code": "fs",
-      "type":"radio",
-      "choices": {
-        "parked": "Parked<br>",
-        "shallow": "Shallow Cage<br>",
-        "deep": "Deep Cage<br>",
-        "attempted": "Attempted climb but failed<br>",
-        "na": "Not attempted"
-      },
-      "defaultValue": "na"
-    }
-  ],
-   "postmatch": [
      { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
       "type": "bool"
@@ -169,5 +155,7 @@ var config_data = `
       "code": "per",
       "type": "bool"
     }
+  ],
+   "postmatch": [
    ]
 }`;
