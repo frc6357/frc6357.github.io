@@ -74,7 +74,7 @@ var config_data = `
   ],
   "endgame": [
     { "name": "Defense",
-      "code": "def",
+      "code": "fre",
       "type":"radio",
       "choices": {
         "one": "protected one location<br>",
@@ -85,19 +85,19 @@ var config_data = `
       "defaultValue": "na"
     },
     { "name": "Defense delayed opponent?",
-      "code": "ide",
+      "code": "ght",
       "type": "bool"
     },
      { "name": "Tippy<br>(almost tipped over)",
-      "code": "tip",
+      "code": "ikl",
       "type": "bool"
     },
     { "name": "Temporarily Immobilized",
-      "code": "tei",
+      "code": "swe",
       "type": "bool"
     },
     { "name": "Permanently Immobilized",
-      "code": "per",
+      "code": "fgb",
       "type": "bool"
     }
   ],
