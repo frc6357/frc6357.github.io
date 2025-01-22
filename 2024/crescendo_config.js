@@ -100,8 +100,6 @@ var config_data = `
       "code": "per",
       "type": "bool"
     },
-    "test_table": [
-    ],
   ],
    "postmatch": [
    ]
