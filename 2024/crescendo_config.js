@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2025",
-  "page_title": "6357 Reefscape 🪸",
+  "page_title": "63571 Reefscape 🪸",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -99,7 +99,9 @@ var config_data = `
     { "name": "Permanently Immobilized",
       "code": "per",
       "type": "bool"
-    }
+    },
+    "test_table": [
+    ],
   ],
    "postmatch": [
    ]
