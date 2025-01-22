@@ -99,7 +99,7 @@ var config_data = `
     { "name": "Permanently Immobilized",
       "code": "per",
       "type": "bool"
-    },
+    }
   ],
    "postmatch": [
    ]
