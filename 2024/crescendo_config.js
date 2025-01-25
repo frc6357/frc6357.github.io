@@ -84,10 +84,6 @@ var config_data = `
       "code": "ght",
       "type": "bool"
     },
-     { "name": "Tippy<br>(almost tipped over)",
-      "code": "ikl",
-      "type": "bool"
-    },
     { "name": "Temporarily Immobilized",
       "code": "swe",
       "type": "bool"
