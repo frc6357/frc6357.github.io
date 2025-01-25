@@ -80,7 +80,7 @@ var config_data = `
       },
       "defaultValue": "na"
     },
-    { "name": "Defense delayed opponent?",
+    { "name": "Defense Delayed Opponent?",
       "code": "ght",
       "type": "bool"
     },
