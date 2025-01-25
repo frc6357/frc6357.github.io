@@ -73,7 +73,34 @@ var config_data = `
   "teleop": [
   ],
   "endgame": [
-  ],
+  { "name": "Defense",
+      "code": "fre",
+      "type":"radio",
+      "choices": {
+        "one": "protected one location<br>",
+        "multiple": "protected multiple locations<br>",
+        "team": "targeted specific team<br>",
+        "na": "Not attempted"
+      },
+      "defaultValue": "na"
+    },
+    { "name": "Defense delayed opponent?",
+      "code": "ght",
+      "type": "bool"
+    },
+     { "name": "Tippy<br>(almost tipped over)",
+      "code": "ikl",
+      "type": "bool"
+    },
+    { "name": "Temporarily Immobilized",
+      "code": "swe",
+      "type": "bool"
+    },
+    { "name": "Permanently Immobilized",
+      "code": "fgb",
+      "type": "bool"
+    }
+    ],
    "postmatch": [
    ]
 }`;
