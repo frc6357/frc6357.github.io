@@ -35,7 +35,7 @@
 
     
 
-      <td>
+       <td>
 <style>
 * {
   box-sizing: border-box;
@@ -56,7 +56,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
   width: 100%;
-  border: 8px solid;
+  border: 5px solid;
 }
 
 th, td {
@@ -76,7 +76,6 @@ tr:nth-child(even)
 <table>
       <tr>
         <th>Auto</th>
-       
       </tr>
       <tr>
      <td class="title">Coral Scores in trough&nbsp;</td>
@@ -122,7 +121,7 @@ tr:nth-child(even)
             <input type="button" id="plus_ane" onclick="counter(this.parentElement, 1)" value="+">
         <tr>
         </tr>
-        <td class="title">Coral Pickup From&nbsp;</td>
+        <td class="title">Pickup From&nbsp;</td>
    <td class="field">
        <input id="input_apf_station" type="radio" name="apf" value="station">Station<br>
        <input id="input_apf_floor" type="radio" name="apf" value="floor">Floor<br>
@@ -131,10 +130,10 @@ tr:nth-child(even)
        <input id="display_apf" hidden="" value=""><input id="default_apf" type="hidden" value="na">
        <tr>
        </tr>
-	   <td class="title">Leave Starting Zone&nbsp;</td>
+       <td class="title">Leave Starting Zone&nbsp;</td>
         <td class="field"><input id="input_al" type="checkbox" name="al">(checked = Yes)</td>
-	<tr>
-	</tr>
+            </tr>
+            <tr>
        </table>
        </div>
   <div class="column">
@@ -186,7 +185,7 @@ tr:nth-child(even)
             <input type="button" id="plus_net" onclick="counter(this.parentElement, 1)" value="+">
             <tr>
             </tr>
-             <td class="title"> Coral Pickup From&nbsp;</td><td class="field"><input id="input_tpf_station" type="radio" name="tpf" value="station">Station<br><input id="input_tpf_floor" type="radio" name="tpf" value="floor">Floor<br><input id="input_tpf_both" type="radio" name="tpf" value="both">Both<br><input id="input_tpf_na" type="radio" name="tpf" value="na" checked="">Not Attempted<input id="display_tpf" hidden="" value=""><input id="default_tpf" type="hidden" value="na">
+             <td class="title">Pickup From&nbsp;</td><td class="field"><input id="input_tpf_station" type="radio" name="tpf" value="station">Station<br><input id="input_tpf_floor" type="radio" name="tpf" value="floor">Floor<br><input id="input_tpf_both" type="radio" name="tpf" value="both">Both<br><input id="input_tpf_na" type="radio" name="tpf" value="na" checked="">Not Attempted<input id="display_tpf" hidden="" value=""><input id="default_tpf" type="hidden" value="na">
              <tr>
              </tr>
         </td>
@@ -195,21 +194,49 @@ tr:nth-child(even)
     <div class="column">
     <table>
       <tr>
-        <th> Scoring</th>
+        <th>Teleop</th>
         
       </tr>
       <tr>
-        <td>Jill</td>
-        <td>Smith</td>
+        <td class="title">Algae removed&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_are" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_are" type="text" name="are" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_are" onclick="counter(this.parentElement, 1)" value="+">
       </tr>
       <tr>
-        <td>Eve</td>
-        <td>Jackson</td>
+        <td class="title">Missed Algae&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_mal" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_mal" type="text" name="mal" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_mal" onclick="counter(this.parentElement, 1)" value="+">
       </tr>
       <tr>
-        <td>Adam</td>
-        <td>Johnson</td>
+   <td class="title">Dropped Algae (>2)&nbsp;</td>
+        <td class="field"><input id="input_dra" type="checkbox" name="dra">(checked = Yes)
+        <tr>
       </tr>
+      <td class="title">Dropped Coral (>2)&nbsp;</td>
+        <td class="field"><input id="input_drc" type="checkbox" name="drc">(checked = Yes)
+        <tr>
+        </tr>
+         <td class="title">Fouls&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_fou" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_fou" type="text" name="fou" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_fou" onclick="counter(this.parentElement, 1)" value="+">
+            <tr>
+            </tr>
+            <td class="title">Final Status&nbsp;</td>
+       <td class="field">
+       <input id="input_fs_parked" type="radio" name="fs" value="parked">Parked<br>
+       <input id="input_fs_shallow" type="radio" name="fs" value="shallow">Shallow Cage<br>
+       <input id="input_fs_deep" type="radio" name="fs" value="deep">Deep Cage<br>
+       <input id="input_fs_attempted" type="radio" name="fs" value="attempted">Attempted climb but failed<br>
+       <input id="input_fs_na" type="radio" name="apf" value="na" checked="">Not attempted
+       <input id="display_fs" hidden="" value=""><input id="default_fs" type="hidden" value="na">
+       <tr>
+       </tr>
     </table>
   </div>
   </div>
