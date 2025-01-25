@@ -186,41 +186,34 @@
 					<h2 id="endgameHeader2">Post-match</h2>
 					<p class="match-label"><input type="button" value="Prev" id="prevButton5" onclick="swipePage(-2)"><input type="button" value="Next" id="nextButton7" onclick="swipePage(2)"></p>
 					<table id="endgame_table">
-<table>
-  <tr>
-    <td>Nested Table
+ <table>
+  <td>Nested Table
 <style>
 * {
   box-sizing: border-box;
 }
 
 .row {
+  display: flex;
   margin-left:-5px;
   margin-right:-5px;
 }
-  
-.column {
-  float: left;
-  width: 50%;
-  padding: 1px;
-}
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+.column {
+  flex: 50%;
+  padding: 5px;
 }
 
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  width: 45%;
-  border: .5px solid #ddd;
+  width: 100%;
+  border: 1px solid #ddd;
 }
 
 th, td {
   text-align: left;
-  padding: 2px;
+  padding: 7px;
 }
 
 tr:nth-child(even) {
@@ -236,16 +229,15 @@ tr:nth-child(even) {
     <table>
       <tr>
         <th>First Name</th>
+       
       </tr>
       <tr>
         <td>Jill</td>
         <td>Smith</td>
-        <td>50</td>
       </tr>
       <tr>
         <td>Eve</td>
         <td>Jackson</td>
-        <td>94</td>
       </tr>
       <tr>
         <td>Adam</td>
@@ -257,6 +249,7 @@ tr:nth-child(even) {
     <table>
       <tr>
         <th>First Name</th>
+        
       </tr>
       <tr>
         <td>Jill</td>
@@ -271,11 +264,8 @@ tr:nth-child(even) {
         <td>Johnson</td>
       </tr>
     </table>
-     </td>
-  </tr>
-   </table>
-    </div>
-    </div>
+  </div>
+</div>
 						<!-- ###ENDGAME-COMPONENTS###-->
 					</table>
 					<p class="match-label"><input type="button" value="Prev" id="prevButton6" onclick="swipePage(-2)"> <input type="button" value="Next" id="nextButton8" onclick="swipePage(2)"></p>
