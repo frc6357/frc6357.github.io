@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2025",
-  "page_title": "6357 Reefscape 🪸",
+  "page_title": "63572 Reefscape 🪸",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -73,33 +73,6 @@ var config_data = `
   "teleop": [
   ],
   "endgame": [
-    { "name": "Defense",
-      "code": "fre",
-      "type":"radio",
-      "choices": {
-        "one": "protected one location<br>",
-        "multiple": "protected multiple locations<br>",
-        "team": "targeted specific team<br>",
-        "na": "Not attempted"
-      },
-      "defaultValue": "na"
-    },
-    { "name": "Defense delayed opponent?",
-      "code": "ght",
-      "type": "bool"
-    },
-     { "name": "Tippy<br>(almost tipped over)",
-      "code": "ikl",
-      "type": "bool"
-    },
-    { "name": "Temporarily Immobilized",
-      "code": "swe",
-      "type": "bool"
-    },
-    { "name": "Permanently Immobilized",
-      "code": "fgb",
-      "type": "bool"
-    }
   ],
    "postmatch": [
    ]
