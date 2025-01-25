@@ -31,137 +31,186 @@
 					<h2 id="autonHeader2">Match Data2</h2>
 					<p class="match-label"><input type="button" value="Prev" id="prevButton1" onclick="swipePage(-1)"><input type="button" value="Next" id="nextButton3" onclick="swipePage(2)"></p>
 					<table id="auton_table">
-       					<tbody1>
+       					<tbody>
 
     
 
-    <tr>
-        <td class="title">Coral Scores in trough&nbsp;</td>
+      <td>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  margin-left:-5px;
+  margin-right:-5px;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 8px solid;
+}
+
+th, td {
+  text-align: center;
+  padding: 16px;
+}
+
+tr:nth-child(even) 
+{
+  background-color: (180, 9, 192);
+}
+</style>
+<body>
+
+<div class="row">
+  <div class="column">
+<table>
+      <tr>
+        <th>Auto Scoring</th>
+       
+      </tr>
+      <tr>
+     <td class="title">Coral Scores in trough&nbsp;</td>
         <td class="field">
             <input type="button" id="minus_aco" onclick="counter(this.parentElement, -1)" value="-">
             <input class="counter" id="input_aco" type="text" name="aco" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
             <input type="button" id="plus_aco" onclick="counter(this.parentElement, 1)" value="+">
-        </td>
-        <td class="title">Coral Scores in trough&nbsp;</td>
-        <td class="field">
-            <input type="button" id="minus_csu" onclick="counter(this.parentElement, -1)" value="-">
-            <input class="counter" id="input_csu" type="text" name="csu" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
-            <input type="button" id="plus_csu" onclick="counter(this.parentElement, 1)" value="+">
-		</td>
-	<td class="title">Algae removed&nbsp;</td>
-        <td class="field">
-            <input type="button" id="minus_are" onclick="counter(this.parentElement, -1)" value="-">
-            <input class="counter" id="input_are" type="text" name="are" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
-            <input type="button" id="plus_are" onclick="counter(this.parentElement, 1)" value="+">
-
-       </tr>
-		<td class="title">Coral Scores level 2&nbsp;</td>
+      </tr>
+      <tr>
+       <td class="title">Coral Scores level 2&nbsp;</td>
         <td class="field">
             <input type="button" id="minus_act" onclick="counter(this.parentElement, -1)" value="-">
             <input class="counter" id="input_act" type="text" name="act" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
             <input type="button" id="plus_act" onclick="counter(this.parentElement, 1)" value="+">
         </td>
-        <td class="title">Coral Scores level 2&nbsp;</td>
-        <td class="field">
-            <input type="button" id="minus_cos" onclick="counter(this.parentElement, -1)" value="-">
-            <input class="counter" id="input_cos" type="text" name="cos" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
-            <input type="button" id="plus_cos" onclick="counter(this.parentElement, 1)" value="+">	
-        </td>
-	<td class="title">Missed Algae&nbsp;</td>
-        <td class="field">
-            <input type="button" id="minus_mal" onclick="counter(this.parentElement, -1)" value="-">
-            <input class="counter" id="input_mal" type="text" name="mal" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
-            <input type="button" id="plus_mal" onclick="counter(this.parentElement, 1)" value="+">
-	</tr>
-
-	<td class="title">Coral scores level 3&nbsp;</td>
+      </tr>
+      <tr>
+       <td class="title">Coral scores level 3&nbsp;</td>
         <td class="field">
             <input type="button" id="minus_acs" onclick="counter(this.parentElement, -1)" value="-">
             <input class="counter" id="input_acs" type="text" name="acs" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
             <input type="button" id="plus_acs" onclick="counter(this.parentElement, 1)" value="+">
-        </td>
-        <td class="title">Coral scores level 3&nbsp;</td>
-        <td class="field">
-            <input type="button" id="minus_cst" onclick="counter(this.parentElement, -1)" value="-">
-            <input class="counter" id="input_cst" type="text" name="cst" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
-            <input type="button" id="plus_cst" onclick="counter(this.parentElement, 1)" value="+">
-	</td>
-	<td class="title">Dropped Algae (>2)&nbsp;</td>
-        <td class="field"><input id="input_dra" type="checkbox" name="dra">(checked = Yes)
-
-		</tr>
-
-	<td class="title">Coral scores level 4&nbsp;</td>
+      </tr>
+      <tr>
+      <td class="title">Coral scores level 4&nbsp;</td>
         <td class="field">
             <input type="button" id="minus_acf" onclick="counter(this.parentElement, -1)" value="-">
             <input class="counter" id="input_acf" type="text" name="acf" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
             <input type="button" id="plus_acf" onclick="counter(this.parentElement, 1)" value="+">
-        </td>
-        <td class="title">Coral scores level 4&nbsp;</td>
-        <td class="field">
-            <input type="button" id="minus_scf" onclick="counter(this.parentElement, -1)" value="-">
-            <input class="counter" id="input_scf" type="text" name="scf" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
-            <input type="button" id="plus_scf" onclick="counter(this.parentElement, 1)" value="+">
-        </td>
-	<td class="title">Dropped Coral (>2)&nbsp;</td>
-        <td class="field"><input id="input_drc" type="checkbox" name="drc">(checked = Yes)
-
-
-		</tr>
-
-	<td class="title">Processor Scores&nbsp;</td>
+            </tr>
+            <tr>
+            <td class="title">Processor Scores&nbsp;</td>
         <td class="field">
             <input type="button" id="minus_aps" onclick="counter(this.parentElement, -1)" value="-">
             <input class="counter" id="input_aps" type="text" name="aps" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
             <input type="button" id="plus_aps" onclick="counter(this.parentElement, 1)" value="+">
-        </td>
-        <td class="title">Processor Scores&nbsp;</td>
-        <td class="field">
-            <input type="button" id="minus_pro" onclick="counter(this.parentElement, -1)" value="-">
-            <input class="counter" id="input_pro" type="text" name="pro" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
-            <input type="button" id="plus_pro" onclick="counter(this.parentElement, 1)" value="+">
-	 </td>
-        <td class="title">Fouls&nbsp;</td>
-        <td class="field">
-            <input type="button" id="minus_fou" onclick="counter(this.parentElement, -1)" value="-">
-            <input class="counter" id="input_fou" type="text" name="fou" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
-            <input type="button" id="plus_fou" onclick="counter(this.parentElement, 1)" value="+">
-
-
-		</tr>
-
-	<td class="title">Net&nbsp;</td>
+            <tr>
+            </tr>
+            <td class="title">Net&nbsp;</td>
         <td class="field">
             <input type="button" id="minus_ane" onclick="counter(this.parentElement, -1)" value="-">
             <input class="counter" id="input_ane" type="text" name="ane" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
             <input type="button" id="plus_ane" onclick="counter(this.parentElement, 1)" value="+">
-        </td>
-        <td class="title">Net&nbsp;</td>
-        <td class="field">
-            <input type="button" id="minus_net" onclick="counter(this.parentElement, -1)" value="-">
-            <input class="counter" id="input_net" type="text" name="net" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
-            <input type="button" id="plus_net" onclick="counter(this.parentElement, 1)" value="+">
-	</td>
-       <td class="title">Final Status&nbsp;</td>
-       <td class="field">
-       <input id="input_fs_parked" type="radio" name="fs" value="parked">Parked<br>
-       <input id="input_fs_shallow" type="radio" name="fs" value="shallow">Shallow Cage<br>
-       <input id="input_fs_deep" type="radio" name="fs" value="deep">Deep Cage<br>
-       <input id="input_fs_attempted" type="radio" name="fs" value="attempted">Attempted climb but failed<br>
-       <input id="input_fs_na" type="radio" name="apf" value="na" checked="">Not attempted
-       <input id="display_fs" hidden="" value=""><input id="default_fs" type="hidden" value="na">
-
-</tr>
-
-   <td class="title">Pickup From&nbsp;</td>
+        <tr>
+        </tr>
+        <td class="title">Pickup From&nbsp;</td>
    <td class="field">
        <input id="input_apf_station" type="radio" name="apf" value="station">Station<br>
        <input id="input_apf_floor" type="radio" name="apf" value="floor">Floor<br>
        <input id="input_apf_both" type="radio" name="apf" value="both">Both<br>
        <input id="input_apf_na" type="radio" name="apf" value="na" checked="">Not Attempted
        <input id="display_apf" hidden="" value=""><input id="default_apf" type="hidden" value="na">
-</td>
-    <td class="title">Pickup From&nbsp;</td><td class="field"><input id="input_tpf_station" type="radio" name="tpf" value="station">Station<br><input id="input_tpf_floor" type="radio" name="tpf" value="floor">Floor<br><input id="input_tpf_both" type="radio" name="tpf" value="both">Both<br><input id="input_tpf_na" type="radio" name="tpf" value="na" checked="">Not Attempted<input id="display_tpf" hidden="" value=""><input id="default_tpf" type="hidden" value="na">
+       <tr>
+       </tr>
+       </table>
+       </div>
+  <div class="column">
+    <table>
+      <tr>
+        <th>Tele Scoring</th>
+        
+      </tr>
+      <tr>
+         <td class="title">Coral Scores in trough&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_csu" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_csu" type="text" name="csu" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_csu" onclick="counter(this.parentElement, 1)" value="+">
+      </tr>
+      <tr>
+        <td class="title">Coral Scores level 2&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_cos" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_cos" type="text" name="cos" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_cos" onclick="counter(this.parentElement, 1)" value="+">
+      </tr>
+      <tr>
+         <td class="title">Coral scores level 3&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_cst" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_cst" type="text" name="cst" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_cst" onclick="counter(this.parentElement, 1)" value="+">
+        <tr>
+      </tr>
+        <td class="title">Coral scores level 4&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_scf" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_scf" type="text" name="scf" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_scf" onclick="counter(this.parentElement, 1)" value="+">
+            <tr>
+            </tr>
+            <td class="title">Processor Scores&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_pro" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_pro" type="text" name="pro" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_pro" onclick="counter(this.parentElement, 1)" value="+">
+            <tr>
+            </tr>
+            <td class="title">Net&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_net" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_net" type="text" name="net" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_net" onclick="counter(this.parentElement, 1)" value="+">
+            <tr>
+            </tr>
+             <td class="title">Pickup From&nbsp;</td><td class="field"><input id="input_tpf_station" type="radio" name="tpf" value="station">Station<br><input id="input_tpf_floor" type="radio" name="tpf" value="floor">Floor<br><input id="input_tpf_both" type="radio" name="tpf" value="both">Both<br><input id="input_tpf_na" type="radio" name="tpf" value="na" checked="">Not Attempted<input id="display_tpf" hidden="" value=""><input id="default_tpf" type="hidden" value="na">
+             <tr>
+             </tr>
+        </td>
+       </table>
+       </div>
+    <div class="column">
+    <table>
+      <tr>
+        <th> Scoring</th>
+        
+      </tr>
+      <tr>
+        <td>Jill</td>
+        <td>Smith</td>
+      </tr>
+      <tr>
+        <td>Eve</td>
+        <td>Jackson</td>
+      </tr>
+      <tr>
+        <td>Adam</td>
+        <td>Johnson</td>
+      </tr>
+    </table>
+  </div>
+  </div>
+  </div>
+	</tbody>
 					<!-- ###AUTON-COMPONENTS###-->
 				</table>
 					<p class="match-label"><input type="button" value="Prev" id="prevButton2" onclick="swipePage(-1)"> <input type="button" value="Next" id="nextButton4" onclick="swipePage(2)"></p>
