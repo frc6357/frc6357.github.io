@@ -58,17 +58,17 @@ var config_data = `
     { "name": "Auto Start Position",
       "code": "as",
       "type": "clickable_image",
-      "filename": "2024/k_logo.png",
+      "filename": "2024/realreal2025field.png",
       "clickRestriction": "one",
       "allowableResponses": "6 7 18 19 30 31 42 43 54 55 66 67",
       "shape": "circle 5 black red true"
     }
   ],
   "auton": [
-  { "name": "Auto Start Position",
-      "code": "as",
+  { "name": "Logo",
+      "code": "log",
       "type": "clickable_image",
-      "filename": "2024/realreal2025field.png",
+      "filename": "2024/k_logo.png",
       "clickRestriction": "one",
       "allowableResponses": "6 7 18 19 30 31 42 43 54 55 66 67",
       "shape": "circle 5 black red true"
