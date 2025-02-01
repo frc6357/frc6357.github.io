@@ -65,14 +65,6 @@ var config_data = `
     }
   ],
   "auton": [
-  { "name": "Logo",
-      "code": "log",
-      "type": "clickable_image",
-      "filename": "2024/k_logo.png",
-      "clickRestriction": "one",
-      "allowableResponses": "6 7 18 19 30 31 42 43 54 55 66 67",
-      "shape": "circle 5 black red true"
-    }
   ],
   "teleop": [
   ],
