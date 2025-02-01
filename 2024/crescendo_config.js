@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting Pass 2025",
-  "page_title": "63573 Reefscape 🪸",
+  "page_title": "63579 Reefscape 🪸",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -65,6 +65,14 @@ var config_data = `
     }
   ],
   "auton": [
+  { "name": "Auto Start Position",
+      "code": "as",
+      "type": "clickable_image",
+      "filename": "2024/realreal2025field.png",
+      "clickRestriction": "one",
+      "allowableResponses": "6 7 18 19 30 31 42 43 54 55 66 67",
+      "shape": "circle 5 black red true"
+    }
   ],
   "teleop": [
   ],
