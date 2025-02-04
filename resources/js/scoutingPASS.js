@@ -224,58 +224,6 @@ function addClickableImage(table, idx, name, data) {
     cell1.innerHTML = `Error: No code specified for ${name}`;
     return idx + 1;
   }
-  cell.innerHTML = name;
-  if (data.hasOwnProperty('tooltip')) {
-    cell.setAttribute("title", data.tooltip);
-  }
-
-  let showFlip = true;
-  if (data.hasOwnProperty('showFlip')) {
-    if (data.showFlip.toLowerCase() == 'false') {
-      showFlip = false;
-    }
-  }
-
-  let showUndo = true;
-  if (data.hasOwnProperty('showUndo')) {
-    if (data.showUndo.toLowerCase() == 'false') {
-      showUndo = false;
-    }
-  }
-
-  if (showFlip || showUndo) {
-    idx += 1
-    row = table.insertRow(idx);
-    cell = row.insertCell(0);
-    cell.setAttribute("colspan", 2);
-    cell.setAttribute("style", "text-align: center;");
-
-    if (showUndo) {
-      // Undo button
-      let undoButton = document.createElement("input");
-      undoButton.setAttribute("type", "button");
-      undoButton.setAttribute("onclick", "undo(this.parentElement)");
-      undoButton.setAttribute("value", "Undo");
-      undoButton.setAttribute("id", "undo_" + data.code);
-      undoButton.setAttribute("class", "undoButton");
-      cell.appendChild(undoButton);
-    }
-
-    if (showFlip) {
-      // Flip button
-      let flipButton = document.createElement("input");
-      flipButton.setAttribute("type", "button");
-      flipButton.setAttribute("onclick", "flip(this.parentElement)");
-      flipButton.setAttribute("value", "Flip Image");
-      flipButton.setAttribute("id", "flip_" + data.code);
-      flipButton.setAttribute("class", "flipButton");
-      if (showUndo) {
-        flipButton.setAttribute("margin-left", '8px');
-      }
-      cell.appendChild(flipButton);
-    }
-  }
-
   idx += 1;
   row = table.insertRow(idx);
   cell = row.insertCell(0);
