@@ -178,7 +178,10 @@ tr:nth-child(even)
              <tr>
              </tr>
 	<td class="title">Dropped Coral (>2)&nbsp;</td>
-        <td class="field"><input id="input_drc" type="checkbox" name="drc">(checked = Yes)
+        <td class="field">
+	    <input type="button" id="minus_dc" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_dc" type="text" name="dc" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_dc" onclick="counter(this.parentElement, 1)" value="+">
         <tr>
         </tr>
         </td>
@@ -220,8 +223,10 @@ tr:nth-child(even)
       </tr>
       <tr>
    <td class="title">Dropped Algae (>2)&nbsp;</td>
-        <td class="field"><input id="input_dra" type="checkbox" name="dra">(checked = Yes)
-        <tr>
+        <td class="field">
+	    <input type="button" id="minus_da" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_da" type="text" name="da" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_da" onclick="counter(this.parentElement, 1)" value="+">
       </tr>
 	 <td class="title">Tippy<br>(almost tipped over)&nbsp;</td>
         <td class="field"><input id="input_ikl" type="checkbox" name="ikl">(checked = Yes)
