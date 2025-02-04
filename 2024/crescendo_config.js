@@ -94,7 +94,7 @@ var config_data = `
         "x": "did not immobilize"
       },
       "defaultValue": "x"
-    },
+    }
     ],
    "postmatch": [
    ]
