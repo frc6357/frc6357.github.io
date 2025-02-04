@@ -84,14 +84,17 @@ var config_data = `
       "code": "ght",
       "type": "bool"
     },
-    { "name": "Temporarily Immobilized",
-      "code": "swe",
-      "type": "bool"
+    { "name": "Immobilized",
+      "code": "imo",
+      "type":"radio",
+      "choices": {
+        "disc from field (temp)": "disconnects from field (steady light)<br>",
+        "pwr loss (perm)": "powerloss (no light)<br>",
+        "reboot (perm)": "reboot (no light)<br>",
+        "x": "did not immobilize"
+      },
+      "defaultValue": "x"
     },
-    { "name": "Permanently Immobilized",
-      "code": "fgb",
-      "type": "bool"
-    }
     ],
    "postmatch": [
    ]
