@@ -1,7 +1,7 @@
 // ScoutingPASS.js
 //
-// The guts of the ScountingPASS application
-// Written by Team 2451 - PWNAGE
+// The code
+//I love Will Stankard
 
 document.addEventListener("touchstart", startTouch, false);
 document.addEventListener("touchend", moveTouch, false);
