@@ -142,10 +142,10 @@ tr:nth-child(even)
   <div class="column">
     <table style="background-color: rgb(213, 210, 210);">
       <tr>
-        <th>Teleop Scoring</th>
+        <th>Teleop Coral</th>
         
       </tr>
-      <tr>
+	     <tr>
          <td class="title">Scores in Trough&nbsp;</td>
         <td class="field">
             <input type="button" id="minus_csu" onclick="counter(this.parentElement, -1)" value="-">
@@ -174,20 +174,6 @@ tr:nth-child(even)
             <input type="button" id="plus_scf" onclick="counter(this.parentElement, 1)" value="+">
             <tr>
             </tr>
-            <td class="title">Scores in Processor&nbsp;</td>
-        <td class="field">
-            <input type="button" id="minus_pro" onclick="counter(this.parentElement, -1)" value="-">
-            <input class="counter" id="input_pro" type="text" name="pro" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
-            <input type="button" id="plus_pro" onclick="counter(this.parentElement, 1)" value="+">
-            <tr>
-            </tr>
-            <td class="title">Scores in Net&nbsp;</td>
-        <td class="field">
-            <input type="button" id="minus_net" onclick="counter(this.parentElement, -1)" value="-">
-            <input class="counter" id="input_net" type="text" name="net" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
-            <input type="button" id="plus_net" onclick="counter(this.parentElement, 1)" value="+">
-            <tr>
-            </tr>
              <td class="title">Coral Pickup From&nbsp;</td><td class="field"><input id="input_tpf_station" type="radio" name="tpf" value="station">Station<br><input id="input_tpf_floor" type="radio" name="tpf" value="floor">Floor<br><input id="input_tpf_both" type="radio" name="tpf" value="both">Both<br><input id="input_tpf_na" type="radio" name="tpf" value="na" checked="">Not Attempted<input id="display_tpf" hidden="" value=""><input id="default_tpf" type="hidden" value="na">
              <tr>
              </tr>
@@ -197,9 +183,23 @@ tr:nth-child(even)
     <div class="column">
     <table style="background-color: rgb(213, 210, 210);">
       <tr>
-        <th>Teleop</th>
+        <th>Teleop Algae</th>
         
       </tr>
+	     <td class="title">Scores in Processor&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_sps" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_sps" type="text" name="sps" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_sps" onclick="counter(this.parentElement, 1)" value="+">
+            <tr>
+	    </tr>
+		<td class="title">Scores in Net&nbsp;</td>
+        <td class="field">
+            <input type="button" id="minus_net" onclick="counter(this.parentElement, -1)" value="-">
+            <input class="counter" id="input_net" type="text" name="net" style="background-color: black; color: white;border: none; text-align: center;" disabled="" value="0" size="2" maxlength="2">
+            <input type="button" id="plus_net" onclick="counter(this.parentElement, 1)" value="+">
+            <tr>
+            </tr>
       <tr>
         <td class="title">Algae Removed&nbsp;</td>
         <td class="field">
