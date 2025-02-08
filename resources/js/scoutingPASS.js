@@ -287,7 +287,7 @@ function addClickableImage(table, idx, name, data) {
   inp = document.createElement('input');
   inp.setAttribute("hidden", "");
   inp.setAttribute("id", "dimensions_" + data.code);
-  inp.setAttribute("value", "12 6");
+  inp.setAttribute("value", "18 9");
   if (data.hasOwnProperty('dimensions')) {
     if (data.dimensions != "") {
       // TODO: Add validation for "X Y" format
