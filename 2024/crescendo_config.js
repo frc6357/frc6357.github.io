@@ -55,8 +55,6 @@ var config_data = `
       "min": 1,
       "max": 99999
     },
-    { "name": "Field Position"
-    },
     { "name": "Auto Start Position",
       "code": "as",
       "type": "clickable_image",
