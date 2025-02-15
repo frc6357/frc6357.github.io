@@ -5,7 +5,7 @@ var config_data = `
   "page_title": "6357 Reefscape 🪸",
   "checkboxAs": "10",
   "prematch": [
-    { "name": "Scouter Initials",
+    { "name": "Scouter First Name Last Initial",
       "code": "s",
       "type": "scouter",
       "size": 5,
