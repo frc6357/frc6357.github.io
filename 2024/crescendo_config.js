@@ -89,8 +89,10 @@ var config_data = `
       "type":"radio",
       "choices": {
         "disc from field (temp)": "disconnects from field (steady light)<br>",
+        "caught on cage": "Caught on cage<br>",
         "pwr loss (perm)": "powerloss (no light)<br>",
         "reboot (perm)": "reboot (no light)<br>",
+        "other": "other<br>",
         "x": "did not immobilize"
       },
       "defaultValue": "x"
