@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2025TXBEL",
+      "defaultValue": "2025TXCLE",
       "required": "true"
     },
     { "name": "Match Level",
