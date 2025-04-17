@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2025JOHNSON",
+      "defaultValue": "2025joh",
       "required": "true"
     },
     { "name": "Match Level",
