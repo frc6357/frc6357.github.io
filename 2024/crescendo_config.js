@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "HOPPER",
+      "defaultValue": "2025HOPPER",
       "required": "true"
     },
     { "name": "Match Level",
