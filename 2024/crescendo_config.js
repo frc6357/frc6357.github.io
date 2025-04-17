@@ -15,7 +15,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "2025JCMP",
+      "defaultValue": "2025JOHNSON",
       "required": "true"
     },
     { "name": "Match Level",
